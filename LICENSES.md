@@ -49,7 +49,9 @@ schema:
 - **Original Date**: <YYYY or YYYY-MM-DD if known>
 - **Verified By**: <OWNER handle>, <YYYY-MM-DD>           ← OWNER 主动收录 + 善意核实，非上游授权
 - **SHA-256**: <hex>  ← optional, see SHA256SUMS.txt for full list
-- **Notes**: <free text — e.g. "Test ROM, $6000 protocol" or "Includes nestest.log as reference truth">
+- **Notes**: <REQUIRED — license basis + ROM-purpose info>           ← verify_licenses.sh 强制非空
+       PD entries MUST cite basis: explicit upstream declaration
+       OR "community consensus; third-party PD-tagged archive: <URL>"
 
 Example:
 
@@ -59,10 +61,45 @@ Example:
 - **Upstream Author**: Shay Green (blargg)              ← 事实性署名
 - **Original Date**: 2004
 - **Verified By**: @Laffinty (OWNER), 2026-09-21         ← OWNER 主动收录 + 善意核实
-- **Notes**: CPU test ROM, $6000 protocol. Result code 0x80=Running, 0x81=Reset, 0x00=PASS, 0x01-0x7F=FAIL.
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM, $6000 protocol. Result code 0x80=Running, 0x81=Reset, 0x00=PASS, 0x01-0x7F=FAIL.
 -->
 
 ### _(待 vendor 后逐条追加)_
+
+### blargg/cpu/cpu_timing_test6.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/cpu_timing_test6/cpu_timing_test.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU instruction timing test (NTSC), pass=2 beeps / fail=1 beep.
+
+### blargg/cpu/instr_test_v5_all.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v5/all_instrs.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU instruction behavior test (official + unofficial opcodes), $6000 result protocol.
+
+### blargg/cpu/instr_test_v5_official.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v5/official_only.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU instruction behavior test (official opcodes only), $6000 result protocol.
+
+### blargg/cpu/instr_misc.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_misc/instr_misc.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Miscellaneous CPU instruction edge cases (16-bit address wrap, dummy reads).
+
+### blargg/cpu/cpu_interrupts_v2.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/cpu_interrupts_v2/cpu_interrupts.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU IRQ/NMI behavior + timing test (v2).
 
 ---
 

@@ -31,3 +31,9 @@
 # f6e5d4c3b2a1987654321098765432109876fedc  blargg/ppu/ppu_vbl_nmi.nes
 # 9f8e7d6c5b4a3210123456789012345678900abc  nestest/nestest.nes
 # ...
+
+6ab4fe8af23b12ca0dfccfc030de3d4069bf2498e3ef20ddcf1ca75555065b85  blargg/cpu/cpu_timing_test6.nes
+ccbac4e824eb96ecfe8b82d331a083be186eb6776aa57e25c52251eaf7df9c4f  blargg/cpu/cpu_interrupts_v2.nes
+b6762e20a285216304dfd2b5e1f192459354b23a5e48b2f5f9fb7cb0dac51243  blargg/cpu/instr_misc.nes
+353870c157242e3d428ef7387109deaee0d2e158bdb432ab9aae4e657072c785  blargg/cpu/instr_test_v5_all.nes
+589b8835deb5cbc69618dac193a3dbd675540f7f2794e2d2a92e97beb8abc3cb  blargg/cpu/instr_test_v5_official.nes

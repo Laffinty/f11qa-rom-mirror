@@ -9,7 +9,7 @@ upstream license permits redistribution:
 
 | License | Accepted | Notes |
 |---|---|---|
-| PD / CC0 | Yes | Upstream must state PD / CC0 explicitly |
+| PD / CC0 | Yes | License ∈ accepted set; `Notes` field documents basis (explicit upstream declaration, *or* community consensus + third-party PD-tagged archive URL) |
 | zlib / zlib-like | Yes | License file publicly accessible; attribution preserved |
 | GPL-2.0-only / -or-later | Yes | License file + source publicly available upstream |
 | GPL-3.0-only / -or-later | Yes | Same as above; "v3 only" / patent clauses reviewed per-case |

@@ -40,6 +40,7 @@ errors=0
 current_path=""
 current_license=""
 current_url=""
+current_notes=""
 in_comment=0
 
 flush_entry() {
@@ -82,12 +83,25 @@ flush_entry() {
         errors=$((errors + 1))
     fi
 
+    # 4. Notes field non-empty — required for documenting license basis.
+    #    Especially important for PD entries where the basis (explicit upstream
+    #    declaration vs. community consensus + third-party PD-tagged archive)
+    #    must be transparent.
+    if [[ -z "$current_notes" ]]; then
+        echo "LICENSES: ${current_path} missing Notes field (license basis)" >&2
+        errors=$((errors + 1))
+    fi
+
     current_path=""
     current_license=""
     current_url=""
+    current_notes=""
 }
 
-while IFS= read -r line; do
+while IFS= read -r line || [[ -n "$line" ]]; do
+    # Strip trailing CR (Windows CRLF safety)
+    line="${line%$'\r'}"
+
     # Track HTML comment state
     if [[ "$line" == *"<!--"* ]]; then
         in_comment=1
@@ -121,6 +135,12 @@ while IFS= read -r line; do
     # Field: "- **Upstream URL**: <value>"
     if [[ "$line" =~ ^-\ \*\*Upstream\ URL\*\*:[[:space:]]+(.+)$ ]]; then
         current_url="${BASH_REMATCH[1]}"
+        continue
+    fi
+
+    # Field: "- **Notes**: <value>"  (REQUIRED — license basis)
+    if [[ "$line" =~ ^-\ \*\*Notes\*\*:[[:space:]]+(.+)$ ]]; then
+        current_notes="${BASH_REMATCH[1]}"
         continue
     fi
 done < "$LICENSES_FILE"
