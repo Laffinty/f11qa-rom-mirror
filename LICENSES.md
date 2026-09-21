@@ -268,3 +268,122 @@ Example:
 - **Upstream Author**: Shay Green (blargg)
 - **Verified By**: @Laffinty (OWNER), 2026-09-21
 - **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 16 / special.
+
+### blargg/cpu/instr_test_v3_all_instrs.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/all_instrs.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: all_instrs.
+
+### blargg/cpu/instr_test_v3_official_only.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/official_only.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: official_only.
+
+### blargg/cpu/instr_test_v3_01-implied.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/01-implied.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 01 / implied.
+
+### blargg/cpu/instr_test_v3_02-immediate.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/02-immediate.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 02 / immediate.
+
+### blargg/cpu/instr_test_v3_03-zero_page.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/03-zero_page.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 03 / zero_page.
+
+### blargg/cpu/instr_test_v3_04-zp_xy.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/04-zp_xy.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 04 / zp_xy.
+
+### blargg/cpu/instr_test_v3_05-absolute.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/05-absolute.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 05 / absolute.
+
+### blargg/cpu/instr_test_v3_06-abs_xy.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/06-abs_xy.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 06 / abs_xy.
+
+### blargg/cpu/instr_test_v3_07-ind_x.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/07-ind_x.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 07 / ind_x.
+
+### blargg/cpu/instr_test_v3_08-ind_y.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/08-ind_y.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 08 / ind_y.
+
+### blargg/cpu/instr_test_v3_09-branches.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/09-branches.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 09 / branches.
+
+### blargg/cpu/instr_test_v3_10-stack.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/10-stack.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 10 / stack.
+
+### blargg/cpu/instr_test_v3_11-jmp_jsr.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/11-jmp_jsr.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 11 / jmp_jsr.
+
+### blargg/cpu/instr_test_v3_12-rts.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/12-rts.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 12 / rts.
+
+### blargg/cpu/instr_test_v3_13-rti.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/13-rti.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 13 / rti.
+
+### blargg/cpu/instr_test_v3_14-brk.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/14-brk.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 14 / brk.
+
+### blargg/cpu/instr_test_v3_15-special.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/instr_test-v3/rom_singles/15-special.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 15 / special.
