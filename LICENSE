@@ -137,8 +137,43 @@ This CC0 license covers ONLY the metadata files listed above. It does
 NOT grant rights to the NES ROM files (.nes) within this repository.
 Each ROM retains its own license as declared in LICENSES.md.
 
-If you are an upstream author and wish a ROM to be removed, please open
-an issue. Removal is implemented on a best-effort, no-questions-asked
-basis for maintainer safety.
+Nature of this repository
+-------------------------
+
+This repository is a long-term **1:1 mirror** of third-party NES test ROMs,
+actively curated by @Laffinty (OWNER) for the FCEUX11 / F11QA test
+infrastructure. OWNER is a **custodian**, not the creator, of the ROM
+bytes contained herein. All copyright and attribution rights in each
+ROM remain with its respective upstream author. Upstream authors are
+**not** contributors to this repository; OWNER is **not** affiliated
+with, sponsored by, or acting on behalf of any upstream author.
+
+Takedown (informal)
+-------------------
+
+If you are an upstream author or a rights-holder and wish a ROM to be
+removed, please open an issue (preferred) or contact @Laffinty via
+GitHub. Removal is implemented on a best-effort, no-questions-asked
+basis within 24 hours of identity verification, for maintainer safety.
+Full takedown policy: see `README.md §收录与法律声明 §5`.
+
+Takedown (formal / GitHub DMCA)
+-------------------------------
+
+For a formal takedown, please contact GitHub directly at
+<https://github.com/contact/dmca>. OWNER will cooperate with GitHub's
+compliance process but does **not** operate as a U.S. DMCA Service
+Provider and does **not** independently maintain a DMCA
+notice-and-takedown infrastructure.
+
+Trademarks
+----------
+
+All upstream author names, handles, ROM names, and trademarks
+referenced in this repository or in `LICENSES.md` are the property of
+their respective owners. Their use here is purely factual attribution
+and does **not** imply endorsement, partnership, or sponsorship.
+No upstream trademark right is granted by this CC0 dedication or by the
+inclusion of any ROM in this repository.
 
 ================================================================

@@ -1,9 +1,12 @@
 # f11qa-rom-mirror License Manifest
 
 > **每个 NES 测试 ROM 的 license 单独登记**。
+> 本文件的每个条目都由 **OWNER（@Laffinty）主动收录** 时填写，
+> 反映 OWNER **善意核实** 的上游 license 状态，**不** 代表上游作者已审核本仓库的收录行为。
 > 上游 URL 必须可访问；license 字段必须明确填写；不允许任何"应当是 PD"等模糊表述。
 >
 > 维护脚本：`scripts/verify_licenses.sh` 校验每个条目的合法性。
+> 法律声明以 `README.md §收录与法律声明` 为准；如本文件与 README 冲突，**以 README 为准**。
 
 ---
 
@@ -40,11 +43,11 @@
 <!--
 schema:
 ### <suite>/<path>
-- **License**: <PD | zlib | GPL | GPL-2.0 | GPL-3.0 | CC0>
+- **License**: <PD | zlib | GPL-2.0 | GPL-3.0 | CC0>
 - **Upstream URL**: <canonical primary source URL>
-- **Upstream Author**: <author name + handle>
+- **Upstream Author**: <author name + handle>            ← 事实性署名，非合作/背书
 - **Original Date**: <YYYY or YYYY-MM-DD if known>
-- **Verified By**: <maintainer handle>, <YYYY-MM-DD>
+- **Verified By**: <OWNER handle>, <YYYY-MM-DD>           ← OWNER 主动收录 + 善意核实，非上游授权
 - **SHA-256**: <hex>  ← optional, see SHA256SUMS.txt for full list
 - **Notes**: <free text — e.g. "Test ROM, $6000 protocol" or "Includes nestest.log as reference truth">
 
@@ -53,9 +56,9 @@ Example:
 ### blargg/cpu/instr_v5_all.nes
 - **License**: PD
 - **Upstream URL**: https://github.com/christopherpow/nes-test-roms/raw/master/instr_test-v5/all_instrs.nes
-- **Upstream Author**: Shay Green (blargg)
+- **Upstream Author**: Shay Green (blargg)              ← 事实性署名
 - **Original Date**: 2004
-- **Verified By**: @Laffinty, 2026-09-21
+- **Verified By**: @Laffinty (OWNER), 2026-09-21         ← OWNER 主动收录 + 善意核实
 - **Notes**: CPU test ROM, $6000 protocol. Result code 0x80=Running, 0x81=Reset, 0x00=PASS, 0x01-0x7F=FAIL.
 -->
 
@@ -67,27 +70,30 @@ Example:
 
 ### 接受的 license
 
-| License | 是否接受 | 备注 |
+| License | 是否接受 | 收录前提 |
 |---|---|---|
-| **PD**（Public Domain） | ✅ | NES 测试 ROM 套件的主流 license |
-| **zlib / 类 zlib** | ✅ | pinobatch 套件典型采用 |
-| **GPL-2.0** | ✅ | 与 FCEUX11 主项目 license 兼容 |
-| **GPL-3.0** | ✅ | 兼容 GPL-2（GPL-3 含 "v3 only" 限制，需逐项审查） |
-| **CC0** | ✅ | 极端 permissive，与 PD 等效 |
-| **MIT / BSD / Apache** | ✅（理论可接受） | 目前 NES 测试 ROM 套件无此例 |
-| **专有 / 来源缺失 / 不明** | ❌ | 必须排除 |
+| **PD**（Public Domain） | ✅ | 上游显式 PD 声明；不接受 "应该是 PD" |
+| **zlib / 类 zlib** | ✅ | 上游 LICENSE 文件可公开访问；保留署名 |
+| **GPL-2.0-only / -or-later** | ✅ | 上游 LICENSE 文件可公开访问；**且** 上游同时公开源码或构建方法 |
+| **GPL-3.0-only / -or-later** | ✅ | 同上；GPL-3 含 "v3 only" / 专利条款需逐项审查 |
+| **CC0** | ✅ | 与 PD 等效 |
+| **MIT / BSD / Apache** | ✅ | 上游 LICENSE 文件可公开访问；保留署名 |
+| **专有 / 来源缺失 / license 不明** | ❌ | 必须排除 |
 
-### License 验证流程
+> 注：本表对 GPL 的接受 **与 FCEUX11 主项目 license 兼容性无关**——
+> 主项目不 vendor ROM，两边的 license 担保互不干涉。
 
-每个 PR 引入新 ROM 时：
+### License 验证流程（OWNER 主动收录）
 
-1. Maintainer 必须在上游找到**明确的 license 声明**
-2. 在本文件追加一条 entry
+本仓库 **不接受** 外部 PR 直接 vendor 新 ROM。所有新 ROM 由 OWNER 单方面收录：
+
+1. OWNER 必须在上游找到 **明确的、可公开访问的 license 声明**
+2. OWNER 在本文件追加一条 entry（schema 见上方注释块）
 3. `scripts/verify_licenses.sh` 自动校验：
    - License 字段 ∈ 接受列表
    - Upstream URL 是公开可访问的（不能是私有域名 / 内网 URL）
    - 上游确实存在该 license 声明文件
-4. CI PASS 后合并
+4. CI PASS 后，OWNER 签出 commit 并 push
 
 ---
 

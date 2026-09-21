@@ -66,25 +66,30 @@ f11qa-rom-mirror/
 
 ---
 
-## 加入政策
+## 收录范围与 License 政策
 
-**仅纳入以下 license 的 ROM**：
+> 以下为 **OWNER 主动收录** ROM 时的 **最低 license 标准**。
+> 不属于以下范围的 ROM **不会** 被收录，无论谁提出请求。
 
-| License | 是否纳入 | 上游典型代表 |
-|---|---|---|
-| **PD**（Public Domain） | ✅ | christopherpow/nes-test-roms 内绝大多数 / qmtpro.com / nesninja.com 标记 PD |
-| **zlib / 类 zlib** | ✅ | pinobatch/holy-mapperel / pinobatch/volume_tests |
-| **GPL**（任何版本） | ✅ | pinobatch/240pee / 部分社区 ROM |
-| **GPL-2.0** | ✅ | 继承 FCEUX11 主项目 license 兼容性 |
-| **MIT / BSD / Apache** | ✅（理论可接受，但目前 NES 测试 ROM 套件无此例） | — |
-| **专有 / 不明 / 来源缺失** | ❌ | — |
+| License | 是否纳入 | 收录前提 | 上游典型代表 |
+|---|---|---|---|
+| **PD**（Public Domain / CC0） | ✅ | 上游有显式 PD / CC0 声明；不接受 "应该是 PD" | blargg / qmtpro.com / nesninja.com |
+| **zlib / 类 zlib** | ✅ | 上游 LICENSE 文件可公开访问；保留署名 | pinobatch/holy-mapperel / volume_tests |
+| **GPL-2.0-only / -or-later** | ✅ | 上游 LICENSE 文件可公开访问；**且** 上游同时公开源码或构建方法 | pinobatch/240pee |
+| **GPL-3.0-only / -or-later** | ✅ | 同上；GPL-3 "v3 only" / 专利条款需逐项审查 | （目前 NES 测试 ROM 套件无此例）|
+| **MIT / BSD / Apache** | ✅ | 上游 LICENSE 文件可公开访问；保留署名 | （目前 NES 测试 ROM 套件无此例）|
+| **专有 / 来源缺失 / license 不明 / 自声明 PD 但无依据** | ❌ | — | — |
 
-**任何 PR 引入新 ROM 必须同时**：
+> 注：本表对 GPL 的接受 **与 FCEUX11 主项目 license 兼容性无关**——
+> 主项目不 vendor ROM，两边的 license 担保互不干涉。
 
-1. 在 `LICENSES.md` 内追加一条记录（license 字段必须填写）
-2. 在 `SHA256SUMS.txt` 追加对应校验和
-3. 在 PR description 内明示上游 URL + 上游 license 声明
-4. CI 的 `verify_licenses.sh` 必须 PASS**（任何 license 字段缺失 → PR 拒绝）**
+**收录边界（强约束）**：
+
+- ❌ 本仓库 **不接受** 外部 PR 直接 vendor 新 ROM
+  （OWNER 必须亲自验证上游 license 才能承担收录责任）
+- ❌ 本仓库 **不接受** 对 ROM 字节的任何修改（1:1 镜像为唯一形态）
+- ❌ 本仓库 **不** 提供 "以本仓库 license 为准" 的声明——
+  每个 ROM 的 license 以 **上游声明** 为准
 
 ---
 
@@ -143,14 +148,16 @@ $sources = @(
 
 ## 验证与审计
 
-任何 commit 引入新 ROM 必须经过：
+任何 commit **新增 ROM 或改动 license 字段**
+（OWNER 内部动作或外部 metadata PR）必须经过：
 
 1. **本地 fetch + SHA-256 校验**（`scripts/audit_sha256.sh`）
 2. **License manifest 校验**（`scripts/verify_licenses.sh`）
 3. **CI 自动重跑**（`f11qa-rom-mirror-verify.yml` workflow）
-4. **Maintainer 人工 review**（必须确认上游 license 声明 + 同意本仓库 license 政策）
+4. **OWNER 人工 review**（必须确认上游 license 声明 + 同意本仓库 license 政策）
+   —— 本仓库为单一 OWNER 维护，**不** 存在第三方 maintainer 介入
 
-CI 失败 → PR 拒绝。Maintainer 撤销 license 假设 → PR 拒绝 + 全仓库审计重置。
+CI 失败 → PR 拒绝。OWNER 撤销 license 假设 → 全仓库审计重置。
 
 ---
 
@@ -161,16 +168,106 @@ CI 失败 → PR 拒绝。Maintainer 撤销 license 假设 → PR 拒绝 + 全�
 
 ---
 
-## 贡献与法律声明
+## 收录与法律声明
 
-**贡献者须知**：向本仓库 PR 即表示你确认：
+> 本节为本仓库的法律核心。OWNER 收录 ROM 前必读；上游作者与权利人在维权时必读。
+> 如本节与其他章节冲突，**以本节为准**。
 
-1. 你引入的 ROM **确实是 PD / zlib / GPL 兼容**（或其他在 README 列出的 license）
-2. 你有权限以该 license 再分发该 ROM
-3. 上游 license 声明 URL 已在 PR 内提供
-4. **如有版权疑问 → 不要 PR，立即在 issue 内报告**
+### 1. 本仓库的性质与角色
 
-**免责声明**：本仓库维护者尽力核实每个 ROM 的 license 状态，但**不保证绝对无虞**。如发现任何 license 错误，请在 issue 内报告，会立刻移除相关 ROM。
+f11qa-rom-mirror 由 **OWNER（@Laffinty）** **主动收录** 第三方 NES 测试 ROM，
+目的是为 FCEUX11 / F11QA 测试体系提供 **1:1 长期可获得性 mirror**。
+
+- 本仓库 **不是** ROM 原作的官方分发渠道；**不是** fork；**不是** 协作开发项目。
+- 上游原作者（blargg / kevtris / pinobatch / Quietust / AWJ / N-K / Drag / TakuikaNinja 等）
+  **不是** 本仓库的 "contributor"。他们未曾向本仓库提交过任何文件，
+  未对本仓库的收录行为表示过同意或异议，也未与 OWNER 建立任何
+  隶属、代理、赞助或合作关系。
+- OWNER 仅基于上游 **公开可访问** 的 license 声明进行 **善意收录**；
+  **不** 对 ROM 字节做任何修改、混淆、再打包或衍生作品创作。
+- 所有 ROM 的版权与署名权 **完整保留于各自原作者**；本仓库不主张任何上游权利。
+
+### 2. 收录流程（OWNER 内部动作）
+
+**本仓库不接受外部 PR 提交新 ROM 文件**。所有收录动作由 OWNER 单方面完成：
+
+1. OWNER 在上游（GitHub / 个人主页 / nesdev 论坛附件 / Wayback Machine）发现候选 ROM
+2. OWNER 在上游找到 **显式的、可公开访问的 license 声明**
+   （不接受 "应该是 PD" 这类无依据表述）
+3. OWNER 本地执行 `scripts/sync_from_upstream.sh` → 校验 SHA-256 →
+   在 `LICENSES.md` 与 `SHA256SUMS.txt` 追加条目
+4. OWNER 自己签出 commit 并 push
+   （CI `f11qa-rom-mirror-verify.yml` 二次校验）
+
+如果你希望 OWNER 收录某个尚未纳入的 ROM：
+
+- ✅ **在 issue 内提出收录请求**
+  （附上游 URL + 上游 license 声明 URL + ROM 用途说明）
+- ❌ **不要直接发 PR 添加 ROM 文件** —— OWNER 会立刻 close，
+  因为 OWNER 必须亲自验证上游 license 才能承担收录责任
+
+### 3. PR 提交须知（仅适用于 metadata 修改，不含 ROM）
+
+如果你的 PR 仅修改本仓库的 metadata
+（README / LICENSES.md / SHA256SUMS.txt / scripts / docs），
+**且不新增任何 ROM 文件**，OWNER 欢迎提交。
+
+PR 即表示你确认：
+
+1. 你拥有该 metadata 改动的内容版权，**或** 该改动属于 CC0 / 公有领域
+2. 你的改动 **不** 引入任何上游 license 不明或受限的 ROM
+3. 你的改动 **不** 绕过 `scripts/verify_licenses.sh`
+   或 `scripts/audit_sha256.sh` 的任何校验
+
+### 4. 免责声明
+
+OWNER **尽力** 核实每个 ROM 的 license 状态，但 **不保证绝对无虞**：
+
+- 上游 license 声明可能被原作者撤回、修改或误标
+- OWNER 无法对 ROM 字节做反向工程以验证其真伪
+- 个别 ROM 的 license 处于灰色地带
+  （如作者 "自声明" PD，但版权法上未必成立）
+
+如发现任何 license 错误或疑虑：
+
+- 在本仓库开 issue（首选）
+- 或 GitHub 私信 @Laffinty
+- 或通过 commit 历史中的邮箱联系 OWNER
+
+OWNER 收到核实后 **24 小时内** 移除相关 ROM。
+
+### 5. Take-Down 流程（强承诺）
+
+若您是某 ROM 的原作者或合法权利人，并希望从本仓库移除该 ROM：
+
+1. **在本仓库开 issue**（首选），或通过上述任一渠道联系 OWNER
+2. OWNER 收到后 **24 小时内** 确认请求者身份
+   （核对 GitHub 用户名 / 上游 commit history / 域名邮箱）
+3. 一经确认，立即：
+   - 删除该 ROM 文件
+   - 从 `LICENSES.md` 移除对应条目
+   - 从 `SHA256SUMS.txt` 移除对应行
+   - （如请求者强烈要求）使用 `git filter-repo` 清理 git 历史
+4. 在 issue 内回复 "已移除"
+5. **OWNER 不询问理由** —— 这是 OWNER 的安全底线
+
+### 6. GitHub DMCA / 法定下架
+
+若您希望通过 GitHub 官方 DMCA 流程下架，请直接联系 GitHub：
+<https://github.com/contact/dmca>。
+
+本仓库 OWNER 会 **配合** GitHub 的合规流程，但 **不** 主动代表 GitHub 处理 DMCA
+（本仓库非美国 DMCA Service Provider，亦未对外提供 DMCA
+notice-and-takedown 基础设施）。
+
+### 7. 上游商标 / 署名 / 合理使用
+
+- 所有 ROM 字节的版权与署名权归各自原作者所有，
+  本仓库 **未取得** 任何上游商标使用权。
+- 本仓库对上游作者姓名、handle、ROM 名称的引用
+  **仅为事实性归属标注**（见 `LICENSES.md`），
+  属于合理使用范围，**不** 暗示任何背书、联名或合作关系。
+- 任何上游商标的所有权归原商标所有人所有。
 
 ---
 
