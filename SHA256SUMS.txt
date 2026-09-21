@@ -1,0 +1,33 @@
+# =============================================================================
+# f11qa-rom-mirror SHA256SUMS
+# =============================================================================
+#
+# Format: <sha256_lowercase_hex>  <relative_path_from_repo_root>
+#
+# Verification:
+#   bash scripts/audit_sha256.sh          # full audit
+#   sha256sum -c SHA256SUMS.txt           # standard sha256sum tool (requires cd)
+#
+# Generation (after vendor):
+#   find . -type f \( -name "*.nes" -o -name "*.bin" -o -name "*.log" \) \
+#       -not -path "./.git/*" \
+#       -not -path "./docs/*" \
+#       -not -path "./scripts/*" \
+#       | sort \
+#       | xargs sha256sum > SHA256SUMS.txt
+#
+# Maintenance:
+#   - vendor new ROM → append new lines
+#   - remove ROM      → delete corresponding lines
+#   - replace ROM     → verify upstream SHA matches, then replace line
+#   - any mismatch    → CI fails → maintainer investigates upstream change
+#
+# =============================================================================
+
+# (待首批 vendor 后追加)
+#
+# 示例（vendor 后格式）:
+# a1b2c3d4e5f6789012345678901234567890abcd  blargg/cpu/instr_v5_all.nes
+# f6e5d4c3b2a1987654321098765432109876fedc  blargg/ppu/ppu_vbl_nmi.nes
+# 9f8e7d6c5b4a3210123456789012345678900abc  nestest/nestest.nes
+# ...

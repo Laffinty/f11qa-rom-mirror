@@ -1,0 +1,144 @@
+CC0 1.0 Universal — Public Domain Dedication
+==============================================
+
+This license applies ONLY to the **metadata of this repository** —
+specifically:
+
+  - README.md
+  - LICENSES.md
+  - SHA256SUMS.txt
+  - .gitignore
+  - docs/ contents
+  - scripts/ contents (sync / verify / audit shell scripts)
+
+The ROM files (.nes) within this repository are NOT covered by this CC0
+license. Each ROM retains its own license as declared in LICENSES.md
+(typically Public Domain, zlib/libpng-style, or GPL — all of which are
+compatible with redistribution for verification purposes).
+
+================================================================
+
+Statement of Purpose
+--------------------
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work
+of authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without
+hazard of subsequent claims of infringement build upon, modify,
+incorporate in other works, reuse and redistribute as freely as possible
+in any form whatsoever and for any purposes, including without limitation
+commercial purposes. These owners may contribute to the Commons to promote
+the ideal of a free culture and the further production of creative,
+cultural and scientific works, or to gain reputation or greater
+distribution for their Work in part through the use and efforts of
+others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or
+she is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under
+its terms, with knowledge of his or her Copyright and Related Rights in
+the Work and the meaning and intended legal effect of CC0 on those
+rights.
+
+1. Copyright and Related Rights.
+--------------------------------
+
+A Work made available under CC0 may be protected by copyright and
+related or neighboring rights ("Copyright and Related Rights"). Copyright
+and Related Rights include, but are not limited to, the following:
+
+  i. the right to reproduce, prepare derivative works of, publicly
+     display, perform, distribute, and otherwise exploit a Work for
+     commercial and non-commercial purposes;
+  ii. the right to make, have made, have a third party make, and use
+     derivative works, derivative works of derivative works, collective
+     works, and other works in which the Work is incorporated;
+ iii. the right to publish, communicate, distribute, and otherwise make
+     available the Work;
+  iv. the right to perform the Work, including but not limited to the
+     right to perform or communicate the Work by means of various
+     audio-visual and other technologies now known or hereafter devised;
+  v. the right to broadcast, rebroadcast, retransmit, communicate,
+     distribute, and otherwise make available the Work by means of
+     various broadcasting, transmission, and distribution technologies
+     now known or hereafter devised;
+  vi. the right to make available translations, adaptations,
+     derivations, and other modifications of the Work;
+ vii. the right to make available phonorecords of the Work and other
+     sound-embodying works;
+viii. the right to make available any and all other forms of the Work
+     in any and all media now known or hereafter devised.
+
+3. Waiver.
+-----------
+
+To the greatest extent permitted by, but not in contravention of,
+applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights in the Work:
+
+  a. for the purpose of redistributing the Work, in whole or in part,
+     in any form whatsoever and for any purposes, including without
+     limitation commercial purposes;
+  b. for the purpose of publicly displaying, performing, distributing,
+     and otherwise exploiting the Work, in whole or in part, in any
+     form whatsoever and for any purposes, including without
+     limitation commercial purposes;
+  c. for the purpose of making available derivative works of the Work
+     for any and all purposes, including without limitation commercial
+     purposes;
+  d. for the purpose of publicly displaying, performing, distributing,
+     and otherwise exploiting derivative works of the Work, in whole or
+     in part, in any form whatsoever and for any purposes, including
+     without limitation commercial purposes.
+
+This waiver applies to the Work and all materials listed in section 2,
+in whatever medium and form, now known or hereafter devised.
+
+4. Public License Fallback.
+---------------------------
+
+Should any part of the waiver for any reason be judged legally invalid
+or ineffective under applicable law, then the Waiver shall be preserved
+to the maximum extent permitted taking into account Affirmer's express
+Statement of Purpose. In addition, to the maximum extent permitted
+taking into account Affirmer's express Statement of Purpose, such
+invalidity or ineffectiveness shall not affect the validity or
+effectiveness of the remainder of the Waiver, nor shall it affect the
+validity or effectiveness of any other copyright or related rights
+waived under CC0.
+
+5. Limitation of Liability.
+---------------------------
+
+No trademark or patent rights held by Affirmer are waived, abandoned,
+surrendered, licensed or otherwise affected by this document. Affirmer
+offers the Work as-is and makes no representation regarding the rights of
+any other person or entity.
+
+================================================================
+
+For more information, please see:
+  <http://creativecommons.org/publicdomain/zero/1.0/>
+
+================================================================
+
+Notice — Metadata-Only Application
+==================================
+
+This CC0 license covers ONLY the metadata files listed above. It does
+NOT grant rights to the NES ROM files (.nes) within this repository.
+Each ROM retains its own license as declared in LICENSES.md.
+
+If you are an upstream author and wish a ROM to be removed, please open
+an issue. Removal is implemented on a best-effort, no-questions-asked
+basis for maintainer safety.
+
+================================================================

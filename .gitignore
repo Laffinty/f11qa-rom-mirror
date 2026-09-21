@@ -1,0 +1,108 @@
+# =============================================================================
+# f11qa-rom-mirror .gitignore
+# =============================================================================
+#
+# This repository vendors NES test ROMs as byte-copies from third-party sources.
+# The vendor policy is described in README.md (only PD / zlib / GPL-compatible
+# ROMs are allowed, with full license audit trail in LICENSES.md).
+#
+# This .gitignore excludes ONLY transient / build artifacts. ROM files
+# (.nes / .bin / .log) are deliberately NOT ignored — they are the primary
+# payload of this mirror.
+#
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# OS / editor noise
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*~                # Emacs backup
+*.swp            # Vim swap
+*.swo            # Vim swap
+*.bak            # generic backup
+*.orig           # git merge backup
+*.rej            # git merge rejection
+
+# -----------------------------------------------------------------------------
+# IDE / editor project metadata
+# -----------------------------------------------------------------------------
+.idea/            # JetBrains IntelliJ
+.vscode/          # VS Code
+*.swp
+*.iml
+.project
+.cproject
+.settings/
+.classpath
+.factorypath
+nbproject/
+nbbuild/
+nbdist/
+nb-configuration.xml
+
+# -----------------------------------------------------------------------------
+# Shell scripts runtime artifacts
+# -----------------------------------------------------------------------------
+# scripts/audit_sha256.sh 会把结果写到 stdout，不产生持久文件。
+# 但如果以后改写成把报告写到磁盘，这些会被忽略：
+.f11qa_audit/
+.f11qa_fetch_tmp/
+*.tmp
+
+# -----------------------------------------------------------------------------
+# Wayback Machine 拉取缓存（避免 ROM 字节意外 commit）
+# -----------------------------------------------------------------------------
+.cache/
+.fetch_cache/
+wayback_cache/
+
+# -----------------------------------------------------------------------------
+# 个人 verify 工作副本（maintainer 验证 PR 时可能产生临时大文件）
+# -----------------------------------------------------------------------------
+verify_workdir/
+local_verify/
+
+# -----------------------------------------------------------------------------
+# Python venv（如果以后 sync 脚本用 Python 重写）
+# -----------------------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# -----------------------------------------------------------------------------
+# 测试运行时的 .nes 工作副本（CTest 等可能临时解压 .zip 形态 ROM）
+# -----------------------------------------------------------------------------
+# 注意：这里不忽略 .nes 本身（是仓库有效载荷），
+# 只忽略明显是临时解压或下载中间产物：
+*.nes.tmp
+*.nes.partial
+*.nes.crdownload
+.partial_dl/
+.downloading/
+
+# -----------------------------------------------------------------------------
+# Git LFS（如果将来某些 ROM 太大需要 LFS — 当前所有 ROM 都远小于 100KB）
+# -----------------------------------------------------------------------------
+# 关闭 LFS（保持 mirror 简单）
+*.nes filter=
+*.bin filter=
+
+# -----------------------------------------------------------------------------
+# 一些工具生成的清单导出（按需重新生成，不进入 git）
+# -----------------------------------------------------------------------------
+manifest.generated.json
+license_report.generated.txt
+
+# =============================================================================
+# END OF .gitignore
+# =============================================================================
