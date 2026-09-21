@@ -19,6 +19,33 @@ upstream license permits redistribution:
 Per-ROM details (license, upstream URL, author, SHA-256) are in
 `LICENSES.md`; SHA-256 checksums are indexed in `SHA256SUMS.txt`.
 
+## Inclusion policy
+
+- Only test ROMs whose upstream license is in the accepted set above are vendored.
+- Each ROM is registered in `LICENSES.md` (per-ROM license, upstream URL, author, SHA-256).
+- ROM bytes are vendored 1:1 from upstream — no modifications, no re-encoding, no patching.
+
+## ROM submissions
+
+This repository does **not** accept pull requests that vendor new ROMs.
+OWNER vendors ROMs unilaterally after independent license verification.
+A single ingestion path keeps the ROM set auditable.
+
+## Rights-holder takedown
+
+If you are a rights-holder (original author, licensee, or other legitimate
+claimant) for a vendored ROM and wish it removed:
+
+1. Contact OWNER via the GitHub issue tracker on this repository.
+2. OWNER confirms identity (GitHub handle / commit history / email domain match) within 24 hours.
+3. The ROM file, its `LICENSES.md` entry, and its `SHA256SUMS.txt` line are removed.
+4. Git history is rewritten on explicit request only (`git filter-repo`).
+5. OWNER removes unconditionally — no justification is required.
+
+## Maintainer
+
+OWNER: `@Laffinty`. Contact via GitHub issues on this repository.
+
 ## Repository layout
 
 ```

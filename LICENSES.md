@@ -101,6 +101,279 @@ Example:
 - **Verified By**: @Laffinty (OWNER), 2026-09-21
 - **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU IRQ/NMI behavior + timing test (v2).
 
+### blargg/ppu/ppu_vbl_nmi.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/ppu_vbl_nmi.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU VBL/NMI full suite (all 10 sub-tests combined), $6000 protocol. Upstream `readme.txt` enumerates individual test cases.
+
+### blargg/ppu/01-vbl_basics.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/01-vbl_basics.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU VBL sub-test: basics — NMI flag set/clear at scanline 241.
+
+### blargg/ppu/02-vbl_set_time.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/02-vbl_set_time.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU VBL sub-test: timing of NMI flag set during pre-render scanline.
+
+### blargg/ppu/03-vbl_clear_time.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/03-vbl_clear_time.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU VBL sub-test: timing of NMI flag clear.
+
+### blargg/ppu/04-nmi_control.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/04-nmi_control.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU NMI sub-test: NMI enable/disable behavior via $2000 write.
+
+### blargg/ppu/05-nmi_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/05-nmi_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU NMI sub-test: NMI execution timing.
+
+### blargg/ppu/06-suppression.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/06-suppression.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU NMI sub-test: NMI suppression via $2000 bit 7 write during pre-render.
+
+### blargg/ppu/07-nmi_on_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/07-nmi_on_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU NMI sub-test: precise cycle timing of NMI assertion on next instruction.
+
+### blargg/ppu/08-nmi_off_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/08-nmi_off_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU VBL/NMI sub-test: NMI off-timing (cycle of NMI deassertion relative to pre-render scanline).
+
+### blargg/ppu/09-even_odd_frames.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/09-even_odd_frames.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU VBL/NMI sub-test: even/odd frame skip behavior (NTSC).
+
+### blargg/ppu/10-even_odd_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_vbl_nmi/rom_singles/10-even_odd_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU VBL/NMI sub-test: even/odd frame timing precision.
+
+### blargg/ppu/oam_stress.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/oam_stress/oam_stress.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. OAM stress test -- endurance test for OAM DMA corruption during rendering.
+
+### blargg/ppu/ppu_open_bus.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/ppu_open_bus/ppu_open_bus.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PPU open bus behavior -- reads from unmapped/disabled VRAM return bus decay state.
+
+### blargg/ppu/sprite_overflow_1.Basics.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_overflow_tests/1.Basics.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite overflow sub-test 1 -- 8-sprite-per-scanline limit basics.
+
+### blargg/ppu/sprite_overflow_2.Details.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_overflow_tests/2.Details.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite overflow sub-test 2 -- evaluation order and dummy sprite behavior details.
+
+### blargg/ppu/sprite_overflow_3.Timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_overflow_tests/3.Timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite overflow sub-test 3 -- timing of overflow flag set/clear within scanline.
+
+### blargg/ppu/sprite_overflow_4.Obscure.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_overflow_tests/4.Obscure.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite overflow sub-test 4 -- obscure edge cases (off-screen / disabled sprites interaction).
+
+### blargg/ppu/sprite_overflow_5.Emulator.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_overflow_tests/5.Emulator.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite overflow sub-test 5 -- emulator implementation correctness checks.
+
+### blargg/ppu/sprite_hit_01.basics.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/01.basics.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 1 -- basics of hit flag set/clear.
+
+### blargg/ppu/sprite_hit_02.alignment.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/02.alignment.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 2 -- sprite position alignment vs background.
+
+### blargg/ppu/sprite_hit_03.corners.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/03.corners.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 3 -- corner cases (1px / 7px / 8px offsets).
+
+### blargg/ppu/sprite_hit_04.flip.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/04.flip.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 4 -- horizontal / vertical flip effect on hit detection.
+
+### blargg/ppu/sprite_hit_05.left_clip.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/05.left_clip.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 5 -- left-edge x=0 clip behavior.
+
+### blargg/ppu/sprite_hit_06.right_edge.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/06.right_edge.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 6 -- right-edge x=255 wrap behavior.
+
+### blargg/ppu/sprite_hit_07.screen_bottom.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/07.screen_bottom.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 7 -- bottom-of-screen (y>=240) behavior.
+
+### blargg/ppu/sprite_hit_08.double_height.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/08.double_height.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 8 -- 8x16 sprite (double-height) hit behavior.
+
+### blargg/ppu/sprite_hit_09.timing_basics.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/09.timing_basics.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 9 -- timing basics (when hit flag is checked during scanline).
+
+### blargg/ppu/sprite_hit_10.timing_order.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/10.timing_order.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 10 -- timing order (which sprite pair wins under overlap).
+
+### blargg/ppu/sprite_hit_11.edge_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprite_hit_tests_2005.10.05/11.edge_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Sprite 0 hit sub-test 11 -- edge timing (hit at scanline start / end).
+
+### blargg/ppu/oam_read.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/oam_read/oam_read.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. OAM read during rendering: secondary OAM read patterns from $2004 during visible scanlines.
+
+### blargg/ppu/blargg_ppu_2005_palette_ram.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_ppu_tests_2005.09.15b/palette_ram.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Blargg PPU test (2005.09.15b) -- palette RAM behavior.
+
+### blargg/ppu/blargg_ppu_2005_power_up_palette.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_ppu_tests_2005.09.15b/power_up_palette.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Blargg PPU test (2005.09.15b) -- power-up palette state.
+
+### blargg/ppu/blargg_ppu_2005_sprite_ram.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_ppu_tests_2005.09.15b/sprite_ram.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Blargg PPU test (2005.09.15b) -- sprite RAM behavior (OAM read/write during rendering).
+
+### blargg/ppu/blargg_ppu_2005_vbl_clear_time.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_ppu_tests_2005.09.15b/vbl_clear_time.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Blargg PPU test (2005.09.15b) -- VBL flag clear timing.
+
+### blargg/ppu/blargg_ppu_2005_vram_access.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_ppu_tests_2005.09.15b/vram_access.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Blargg PPU test (2005.09.15b) -- VRAM access timing during scanline.
+
+### blargg/ppu/full_palette_flowing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/full_palette/flowing_palette.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Full NES palette sweep test (animated palette flow across NES color range).
+
+### blargg/ppu/full_palette_main.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/full_palette/full_palette.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Full NES palette static grid (all 64 colors displayed simultaneously).
+
+### blargg/ppu/full_palette_smooth.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/full_palette/full_palette_smooth.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Full NES palette smooth gradient (emphasis-brightened palette sweep).
+
+### blargg/ppu/scrolltest.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/scrolltest/scroll.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Nametable scroll behavior test -- verifies scroll split / mid-scanline changes.
+
 ---
 
 ## License Policy
