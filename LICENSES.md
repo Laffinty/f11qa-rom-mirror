@@ -639,3 +639,17 @@ Example:
 - **Upstream Author**: Joel Yliluoma (bisqwit)
 - **Verified By**: @Laffinty (OWNER), 2026-09-21
 - **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Extracted from upstream zip `ppu_read_buffer.zip` (internal path `ppu_read_buffer/test_ppu_read_buffer.nes`). PPU $2007 read buffer test pack — comprehensive PPU $2007 read behavior verification.
+
+### nestest/nestest.nes
+- **License**: PD
+- **Upstream URL**: https://qmtpro.com/~nes/misc/nestest.nes
+- **Upstream Author**: Kevin Horton (kevtris)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Hosted on qmtpro.com (Quietust) by permission of author. CPU test ROM (kevtris). Start at $C000, compare execution to nestest.log. Reference truth log generated on Nintendulator.
+
+### nestest/nestest.log
+- **License**: PD
+- **Upstream URL**: https://qmtpro.com/~nes/misc/nestest.log
+- **Upstream Author**: Kevin Horton (kevtris)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Hosted on qmtpro.com (Quietust) by permission of author. Reference execution log for nestest.nes (kevtris). 8991 CPU instruction trace lines used for emulator verification.
