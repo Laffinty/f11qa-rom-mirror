@@ -1,0 +1,41 @@
+# .github/workflows/f11qa-rom-mirror-archive.yml
+# Triggered manually only (workflow_dispatch).
+# Creates an immutable annotated tag archive-YYYY-MM pointing at the
+# current main HEAD — a WORM snapshot that survives later rewrites.
+
+name: archive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Audit SHA-256 (sanity check before tagging)
+        run: bash scripts/audit_sha256.sh
+
+      - name: Verify LICENSES.md (sanity check before tagging)
+        run: bash scripts/verify_licenses.sh
+
+      - name: Create annotated tag
+        run: |
+          tag="archive-$(date -u +%Y-%m)"
+          echo "creating tag $tag at $(git rev-parse main)"
+          git config user.name "f11qa-rom-mirror-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git tag -a "$tag" -m "Manual immutable snapshot $(date -u +%Y-%m-%d)" main
+          git push origin "$tag"

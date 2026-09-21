@@ -1,0 +1,66 @@
+# .github/workflows/f11qa-rom-mirror-sync.yml
+# Triggered twice a year (Jan 1 and Jul 1, 02:00 UTC) + on manual workflow_dispatch.
+# Runs sync_from_upstream.sh + audit + verify, then auto-commits any
+# vendored ROM updates on success.
+#
+# On failure, opens an issue so the OWNER can review upstream drift.
+
+name: sync
+
+on:
+  schedule:
+    - cron: '0 2 1 1,7 *'   # Jan 1 and Jul 1, 02:00 UTC (every 6 months)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync from upstream
+        run: bash scripts/sync_from_upstream.sh
+
+      - name: Audit SHA-256
+        run: bash scripts/audit_sha256.sh
+
+      - name: Verify LICENSES.md
+        run: bash scripts/verify_licenses.sh
+
+      - name: Commit vendored updates
+        if: success()
+        run: |
+          git config user.name "f11qa-rom-mirror-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+              git commit -m "sync: semi-annual upstream snapshot $(date -u +%Y-%m-%d)"
+              git push origin main
+          else
+              echo "no upstream changes"
+          fi
+
+      - name: Open issue on drift
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `ROM mirror drift detected at ${new Date().toISOString().split('T')[0]}`,
+              body: '`sync_from_upstream.sh` or `verify_licenses.sh` failed during the semi-annual sync. Review upstream changes and update LICENSES.md / SHA256SUMS.txt as needed.',
+              labels: ['rom-drift', 'maintainer-action-required']
+            });

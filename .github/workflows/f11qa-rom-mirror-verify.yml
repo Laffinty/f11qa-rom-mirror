@@ -1,0 +1,34 @@
+# .github/workflows/f11qa-rom-mirror-verify.yml
+# Triggered on PR + push to main.
+# Runs local-only checks (no upstream fetch):
+#   - audit_sha256.sh
+#   - verify_licenses.sh
+#
+# This workflow does NOT fetch upstream. The semi-annual sync workflow
+# handles that, and is restricted to the OWNER repo (write permission).
+
+name: verify
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Audit SHA-256
+        run: bash scripts/audit_sha256.sh
+
+      - name: Verify LICENSES.md
+        run: bash scripts/verify_licenses.sh
