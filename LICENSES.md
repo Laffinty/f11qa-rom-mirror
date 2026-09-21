@@ -604,3 +604,38 @@ Example:
 - **Upstream Author**: Shay Green (blargg)
 - **Verified By**: @Laffinty (OWNER), 2026-09-21
 - **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. CPU test ROM: 11 / special.
+
+### bisqwit/cpu_dummy_writes_oam.nes
+- **License**: PD
+- **Upstream URL**: https://bisqwit.iki.fi/src/nes_tests/cpu_dummy_writes.zip
+- **Upstream Author**: Joel Yliluoma (bisqwit)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Extracted from upstream zip `cpu_dummy_writes.zip` (internal path `cpu_dummy_writes/cpu_dummy_writes_oam.nes`). CPU dummy writes test (OAM write variant). Tests $2003/$2004 OAM behavior.
+
+### bisqwit/cpu_dummy_writes_ppumem.nes
+- **License**: PD
+- **Upstream URL**: https://bisqwit.iki.fi/src/nes_tests/cpu_dummy_writes.zip
+- **Upstream Author**: Joel Yliluoma (bisqwit)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Extracted from upstream zip `cpu_dummy_writes.zip` (internal path `cpu_dummy_writes/cpu_dummy_writes_ppumem.nes`). CPU dummy writes test (PPU memory access variant). Tests $2006/$2007 reads.
+
+### bisqwit/test_cpu_exec_space_apu.nes
+- **License**: PD
+- **Upstream URL**: https://bisqwit.iki.fi/src/nes_tests/cpu_exec_space.zip
+- **Upstream Author**: Joel Yliluoma (bisqwit)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Extracted from upstream zip `cpu_exec_space.zip` (internal path `cpu_exec_space/test_cpu_exec_space_apu.nes`). CPU executes from $4015 (APU status) — verifies code exec from any memory location.
+
+### bisqwit/test_cpu_exec_space_ppuio.nes
+- **License**: PD
+- **Upstream URL**: https://bisqwit.iki.fi/src/nes_tests/cpu_exec_space.zip
+- **Upstream Author**: Joel Yliluoma (bisqwit)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Extracted from upstream zip `cpu_exec_space.zip` (internal path `cpu_exec_space/test_cpu_exec_space_ppuio.nes`). CPU executes from PPU I/O ($2000-$2007) — verifies code exec from any memory location.
+
+### bisqwit/test_ppu_read_buffer.nes
+- **License**: PD
+- **Upstream URL**: https://bisqwit.iki.fi/src/nes_tests/ppu_read_buffer.zip
+- **Upstream Author**: Joel Yliluoma (bisqwit)
+- **Verified By**: @Laffinty (OWNER), 2026-09-21
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Extracted from upstream zip `ppu_read_buffer.zip` (internal path `ppu_read_buffer/test_ppu_read_buffer.nes`). PPU $2007 read buffer test pack — comprehensive PPU $2007 read behavior verification.
