@@ -1423,3 +1423,360 @@ Example:
 - **Verified By**: @Laffinty (OWNER), 2026-09-22
 - **Notes**: Sprite DMA during DMC DMA test (NROM-512 / MMC3 512K variant). PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Same test as sprdma_and_dmc_dma.nes but for 512K board layout.
 
+### holy_mapperel/M0_P32K_C8K_V.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M0_P32K_C8K_V.nes
+
+### holy_mapperel/M0_P32K_CR32K_V.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M0_P32K_CR32K_V.nes
+
+### holy_mapperel/M0_P32K_CR8K_V.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M0_P32K_CR8K_V.nes
+
+### holy_mapperel/M10_P128K_C64K_S8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M10_P128K_C64K_S8K.nes
+
+### holy_mapperel/M10_P128K_C64K_W8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M10_P128K_C64K_W8K.nes
+
+### holy_mapperel/M118_P128K_C64K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M118_P128K_C64K.nes
+
+### holy_mapperel/M11_P64K_C64K_V.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M11_P64K_C64K_V.nes
+
+### holy_mapperel/M11_P64K_CR32K_V.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M11_P64K_CR32K_V.nes
+
+### holy_mapperel/M180_P128K_CR8K_H.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M180_P128K_CR8K_H.nes
+
+### holy_mapperel/M180_P128K_H.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M180_P128K_H.nes
+
+### holy_mapperel/M1_P128K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P128K.nes
+
+### holy_mapperel/M1_P128K_C128K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P128K_C128K.nes
+
+### holy_mapperel/M1_P128K_C128K_S8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P128K_C128K_S8K.nes
+
+### holy_mapperel/M1_P128K_C128K_W8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P128K_C128K_W8K.nes
+
+### holy_mapperel/M1_P128K_C32K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P128K_C32K.nes
+
+### holy_mapperel/M1_P128K_C32K_S8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P128K_C32K_S8K.nes
+
+### holy_mapperel/M1_P128K_C32K_W8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P128K_C32K_W8K.nes
+
+### holy_mapperel/M1_P128K_CR8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P128K_CR8K.nes
+
+### holy_mapperel/M1_P512K_CR8K_S32K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P512K_CR8K_S32K.nes
+
+### holy_mapperel/M1_P512K_CR8K_S8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P512K_CR8K_S8K.nes
+
+### holy_mapperel/M1_P512K_S32K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P512K_S32K.nes
+
+### holy_mapperel/M1_P512K_S8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M1_P512K_S8K.nes
+
+### holy_mapperel/M28_P512K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M28_P512K.nes
+
+### holy_mapperel/M28_P512K_CR32K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M28_P512K_CR32K.nes
+
+### holy_mapperel/M2_P128K_CR8K_V.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M2_P128K_CR8K_V.nes
+
+### holy_mapperel/M2_P128K_V.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M2_P128K_V.nes
+
+### holy_mapperel/M34_P128K_CR8K_H.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M34_P128K_CR8K_H.nes
+
+### holy_mapperel/M34_P128K_H.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M34_P128K_H.nes
+
+### holy_mapperel/M3_P32K_C32K_H.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M3_P32K_C32K_H.nes
+
+### holy_mapperel/M4_P128K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M4_P128K.nes
+
+### holy_mapperel/M4_P128K_CR32K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M4_P128K_CR32K.nes
+
+### holy_mapperel/M4_P128K_CR8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M4_P128K_CR8K.nes
+
+### holy_mapperel/M4_P256K_C256K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M4_P256K_C256K.nes
+
+### holy_mapperel/M66_P64K_C16K_V.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M66_P64K_C16K_V.nes
+
+### holy_mapperel/M69_P128K_C64K_S8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M69_P128K_C64K_S8K.nes
+
+### holy_mapperel/M69_P128K_C64K_W8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M69_P128K_C64K_W8K.nes
+
+### holy_mapperel/M78.3_P128K_C64K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M78.3_P128K_C64K.nes
+
+### holy_mapperel/M7_P128K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M7_P128K.nes
+
+### holy_mapperel/M7_P128K_CR8K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M7_P128K_CR8K.nes
+
+### holy_mapperel/M9_P128K_C64K.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/holy-mapperel/releases/download/v0.02/holy-mapperel-bin-0.02.7z
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper test ROM from Holy Mapperel 0.02 release (zlib). Pinobatch multi-mapper audio-conflict test 鈥?write $6000 to acknowledge result. Internal archive path: testroms/M9_P128K_C64K.nes
+
+### 240pee/240pee-bnrom.nes
+- **License**: GPL-2.0-or-later
+- **Upstream URL**: https://github.com/pinobatch/240p-test-mini/releases/download/v0.23/240p-nes-others.7z
+- **Upstream Author**: Damian Yerrick (pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Pinobatch 240p test suite for NES (GPL-2.0-or-later). Released v0.23 (2023-03-03). Source: nes/ in pinobatch/240p-test-mini. ROM contains comprehensive video/audio calibration patterns (color bars, SMPTE, PLUGE, drop shadow, audio sync, etc.). Internal archive path: 240pee-bnrom.nes (BNROM 512Kbit build, v0.23)
+
+### 240pee/240pee-sgrom.nes
+- **License**: GPL-2.0-or-later
+- **Upstream URL**: https://github.com/pinobatch/240p-test-mini/releases/download/v0.23/240p-nes-others.7z
+- **Upstream Author**: Damian Yerrick (pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Pinobatch 240p test suite for NES (GPL-2.0-or-later). Released v0.23 (2023-03-03). Source: nes/ in pinobatch/240p-test-mini. ROM contains comprehensive video/audio calibration patterns (color bars, SMPTE, PLUGE, drop shadow, audio sync, etc.). Internal archive path: 240pee-sgrom.nes (SGROM 512Kbit build, v0.23)
+
+### 240pee/240pee-tgrom.nes
+- **License**: GPL-2.0-or-later
+- **Upstream URL**: https://github.com/pinobatch/240p-test-mini/releases/download/v0.23/240p-nes-others.7z
+- **Upstream Author**: Damian Yerrick (pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Pinobatch 240p test suite for NES (GPL-2.0-or-later). Released v0.23 (2023-03-03). Source: nes/ in pinobatch/240p-test-mini. ROM contains comprehensive video/audio calibration patterns (color bars, SMPTE, PLUGE, drop shadow, audio sync, etc.). Internal archive path: 240pee-tgrom.nes (TGROM 512Kbit build, v0.23)
+
+### 240pee/240pee.nes
+- **License**: GPL-2.0-or-later
+- **Upstream URL**: https://github.com/pinobatch/240p-test-mini/releases/download/v0.23/240pee.nes
+- **Upstream Author**: Damian Yerrick (pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Pinobatch 240p test suite for NES (GPL-2.0-or-later). Released v0.23 (2023-03-03). Source: nes/ in pinobatch/240p-test-mini. ROM contains comprehensive video/audio calibration patterns (color bars, SMPTE, PLUGE, drop shadow, audio sync, etc.). Internal archive path: 240pee.nes (NROM-256 main build, v0.23)
+
+### 240pee/mdfourier4k-chrrom.nes
+- **License**: GPL-2.0-or-later
+- **Upstream URL**: https://github.com/pinobatch/240p-test-mini/releases/download/v0.23/240p-nes-others.7z
+- **Upstream Author**: Damian Yerrick (pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Pinobatch 240p test suite for NES (GPL-2.0-or-later). Released v0.23 (2023-03-03). Source: nes/ in pinobatch/240p-test-mini. ROM contains comprehensive video/audio calibration patterns (color bars, SMPTE, PLUGE, drop shadow, audio sync, etc.). Internal archive path: mdfourier4k-chrrom.nes (MDFourier audio test, NES 32K+CHR ROM build, v0.23)
+
+### 240pee/mdfourier4k.nes
+- **License**: GPL-2.0-or-later
+- **Upstream URL**: https://github.com/pinobatch/240p-test-mini/releases/download/v0.23/240p-nes-others.7z
+- **Upstream Author**: Damian Yerrick (pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Pinobatch 240p test suite for NES (GPL-2.0-or-later). Released v0.23 (2023-03-03). Source: nes/ in pinobatch/240p-test-mini. ROM contains comprehensive video/audio calibration patterns (color bars, SMPTE, PLUGE, drop shadow, audio sync, etc.). Internal archive path: mdfourier4k.nes (MDFourier audio test, NES 32K PRG build, v0.23)
+
+### quietust/colors.nes
+- **License**: PD
+- **Upstream URL**: http://qmtpro.com/~nes/demos/colors.zip
+- **Upstream Author**: Quietust (qmtpro.com)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Quietust (qmtpro.com) PD test ROM. PPU palette viewer (basic color bars). Internal archive path: colors.nes
+
+### quietust/colors2.nes
+- **License**: PD
+- **Upstream URL**: http://qmtpro.com/~nes/demos/colors2.zip
+- **Upstream Author**: Quietust (qmtpro.com)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Quietust (qmtpro.com) PD test ROM. PPU palette viewer v2 (enhanced, more precise palette viewing). Internal archive path: colors2.nes
+
+### quietust/mmc5exram.nes
+- **License**: PD
+- **Upstream URL**: http://qmtpro.com/~nes/demos/mmc5exram.zip
+- **Upstream Author**: Quietust (qmtpro.com)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Quietust (qmtpro.com) PD test ROM. MMC5 executable ExRAM demo/proof-of-concept. Internal archive path: mmc5exram.nes
+
+### quietust/scanline.nes
+- **License**: PD
+- **Upstream URL**: http://qmtpro.com/~nes/demos/scanline.zip
+- **Upstream Author**: Quietust (qmtpro.com)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Quietust (qmtpro.com) PD test ROM. PPU emulator accuracy test (scanline timing detection). Internal archive path: scanline.nes
+
+### quietust/square.nes
+- **License**: PD
+- **Upstream URL**: http://qmtpro.com/~nes/demos/square.zip
+- **Upstream Author**: Quietust (qmtpro.com)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Quietust (qmtpro.com) PD test ROM. Aspect ratio measurement utility (PPU square pattern). Internal archive path: square.nes
+
