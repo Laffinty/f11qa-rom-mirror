@@ -22,7 +22,7 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 LICENSES_FILE="${REPO_ROOT}/LICENSES.md"
 
 # Accepted license set (per README §License compatibility)
-ACCEPTED_LICENSES="PD CC0 zlib GPL-2.0 GPL-2.0-only GPL-2.0-or-later GPL-3.0 GPL-3.0-only GPL-3.0-or-later MIT BSD Apache-2.0 ISC Unlicense"
+ACCEPTED_LICENSES="PD CC0 zlib GPL-2.0 GPL-2.0-only GPL-2.0-or-later GPL-3.0 GPL-3.0-only GPL-3.0-or-later MIT BSD Apache-2.0 ISC Unlicense All-Permissive"
 
 # ROM file suffixes that count as vendored artifacts.
 # .nes  = standard iNES / NES 2.0 ROM

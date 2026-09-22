@@ -1990,3 +1990,73 @@ Example:
 - **Verified By**: @Laffinty (OWNER), 2026-09-22
 - **Notes**: NES expansion port diagnostic (controller port latch behavior). Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: porttest/porttest.nes
 
+
+### tepples/test78/test78-0h.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 78 submapper/mirror test, horizontal mirroring variant. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: test78/test78-0h.nes. LICENSE: tepples/test78/LICENSE (zlib, 897 bytes, (c) 2017 Damian Yerrick).
+
+### tepples/test78/test78-0v.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 78 submapper/mirror test, vertical mirroring variant. Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: test78/test78-0v.nes. LICENSE: tepples/test78/LICENSE (zlib).
+
+### tepples/test78/test78-78ines.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 78 submapper/mirror test, 78ines mirroring variant. Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: test78/test78-78ines.nes. LICENSE: tepples/test78/LICENSE (zlib).
+
+### tepples/test78/test78-submapper0.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 78 NES 2.0 submapper 0 variant. Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: test78/test78-submapper0.nes. LICENSE: tepples/test78/LICENSE (zlib).
+
+### tepples/test78/test78-submapper1.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 78 NES 2.0 submapper 1 variant. Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: test78/test78-submapper1.nes. LICENSE: tepples/test78/LICENSE (zlib).
+
+### tepples/test78/test78-submapper2.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 78 NES 2.0 submapper 2 variant. Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: test78/test78-submapper2.nes. LICENSE: tepples/test78/LICENSE (zlib).
+
+### tepples/test78/test78-submapper3.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 78 NES 2.0 submapper 3 variant. Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: test78/test78-submapper3.nes. LICENSE: tepples/test78/LICENSE (zlib).
+
+### tepples/mmc3save/mmc3save.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: MMC3 PRG-RAM conflict reproducer. Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: mmc3save/mmc3save.nes. Per-dir LICENSE absent in release; zlib by tepples convention (same author as test78/LICENSE zlib template).
+
+### tepples/oam-reset/oam_reset.nes
+- **License**: All-Permissive
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: OAM DRAM-refresh behavior test (post-reset dropout of even/odd sprite pair). Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: oam-reset/oam_reset.nes. License text inline in tepples/oam-reset/README.md: GNU All-Permissive License, (c) 2012 Damian Yerrick.
+
+### tepples/chrpress/chrpress.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: CHR pixel-RLE codec demo (Codemasters-inspired horizontal pixel-run codec). Extracted from pinobatch/little-things-nes v20.10 release archive, internal archive path: chrpress/chrpress.nes. Per-dir LICENSE absent in release; zlib by tepples convention (same author as test78/LICENSE zlib template).

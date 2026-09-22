@@ -1010,3 +1010,45 @@ main "$@"    # -----------------------------------------------------------------
     fetch_rom "tepples/porttest/porttest.nes" \
         "9ef7a10f4dc0db6512b7dafce937f9b43e9f0da20b6a092847622c71bf614b76" \
         "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/test78/  (Mapper 78 submapper/mirror variants — 7 ROMs)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/test78/test78-0h.nes" \
+        "c70e37e01c2338cfbd2116b2eabcbfa11104f7848688575b73e5c589fba71303" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/test78/test78-0v.nes" \
+        "57f95e57d0135253e249163d3d95144e62607555b2ad0887d8b9c23ca46ba1b2" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/test78/test78-78ines.nes" \
+        "ce4f904abff66a1888d3fc02648f7c1df4b2227eb480a9c06df5a5cfafb38ddd" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/test78/test78-submapper0.nes" \
+        "2ff37ddf5f2f35949bd95188b458194b12f55f9b38b874f103bfac9ca7228282" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/test78/test78-submapper1.nes" \
+        "59d4f91f04a7580d276f4659a55406528f19d32557bafc40ccace353ec8ff45b" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/test78/test78-submapper2.nes" \
+        "94f9576b3f8260a2eeebb38ac3e6fe96bb51e75f072a965444d5774b05fb0d6c" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/test78/test78-submapper3.nes" \
+        "e6c7e36f89aa4109ccf93215c1411b37a94d4526dd37c48f7f2004fb27e341e6" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/mmc3save/  (MMC3 PRG-RAM conflict reproducer)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/mmc3save/mmc3save.nes" \
+        "e841b4f70427eb029d4f2d1061feeed300b6d75de22f68af8e3de077683e6d74" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/oam-reset/  (OAM reset behavior test)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/oam-reset/oam_reset.nes" \
+        "e6cb396685d99bba2a1fb3164351ce16562ba537b1da4927a5dd56d3c80fec86" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/chrpress/  (CHR pixel-RLE codec)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/chrpress/chrpress.nes" \
+        "c7ea12fb166019a0f91c4f9249014f90558f60c170e6a4ca3497c49faae7270c" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
