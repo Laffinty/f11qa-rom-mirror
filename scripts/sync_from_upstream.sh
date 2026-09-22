@@ -929,3 +929,33 @@ main "$@"    # -----------------------------------------------------------------
     fetch_rom "damianyerrick/vaus-test/vaus-test.nes" \
         "0de3f3de7c8c94261b8b280e2e20e3d5ed0d279afd7117385b0ec7bbd19f50cc" \
         "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vaus-test/vaus-test.nes"
+    # ------------------------------------------------------------------
+    # Phase D batch 2: FDS + input + misc (sour + 3gengames + tepples + Flubba)
+    # ------------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # sour/fdsirqtests/  (sour (Sour, Mesen project), FDS IRQ tests v7)
+    # ------------------------------------------------------------------
+    fetch_rom "sour/fdsirqtests/fdsirqtests.fds" \
+        "38c3ed71d73c71bd09c54e687173bcc2ceea9aa78c78a2813f6c56106814e86b" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/fdsirqtests/fdsirqtests.fds"
+    fetch_rom "sour/fdsirqtests/fdsirqtestsV7_patched.fds" \
+        "3ae386ecdf9137c6ba866eb1f2ecbb3d61954f3a2de9441d2b9e60708579a067" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/fdsirqtests/fdsirqtestsV7_patched.fds"
+    # ------------------------------------------------------------------
+    # 3gengames/PaddleTest3/  (3gengames (Andrew Ayers), Arkanoid paddle controller test)
+    # ------------------------------------------------------------------
+    fetch_rom "3gengames/PaddleTest3/PaddleTest.nes" \
+        "3b4ab0f028e6e977a2e8856aa273e2d3452b8bb761ab7aad5a3f95d30fef6a02" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/PaddleTest3/PaddleTest.nes"
+    # ------------------------------------------------------------------
+    # tepples/tvpassfail/  (tepples (Damian Yerrick), TV pass/fail pattern)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/tvpassfail/tv.nes" \
+        "ef6f28af4f9f893f696be477540373d912cc1b873146ba90273d099988d8e0cc" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/tvpassfail/tv.nes"
+    # ------------------------------------------------------------------
+    # nesstress/NEStress/  (Flubba NEStress (community stress test))
+    # ------------------------------------------------------------------
+    fetch_rom "nesstress/NEStress/NEStress.NES" \
+        "971783427c1c52fcffb93c79a6962b165d4b6859fd6accc44ba78958a1f3c09b" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/stress/NEStress.NES"

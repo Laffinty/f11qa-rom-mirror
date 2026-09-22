@@ -24,8 +24,12 @@ LICENSES_FILE="${REPO_ROOT}/LICENSES.md"
 # Accepted license set (per README §License compatibility)
 ACCEPTED_LICENSES="PD CC0 zlib GPL-2.0 GPL-2.0-only GPL-2.0-or-later GPL-3.0 GPL-3.0-only GPL-3.0-or-later MIT BSD Apache-2.0 ISC Unlicense"
 
-# ROM file suffixes that count as vendored artifacts
-ROM_SUFFIX_REGEX='\.(nes|bin|log)$'
+# ROM file suffixes that count as vendored artifacts.
+# .nes  = standard iNES / NES 2.0 ROM
+# .fds  = Famicom Disk System disk image (FDS BIOS 加载的合法镜像格式)
+# .bin  = raw PRG/CHR chunks (auxiliary build artifacts, audited as vendored ROMs)
+# .log  = reference execution logs (e.g. nestest.log — vendored as ROM metadata)
+ROM_SUFFIX_REGEX='\.(nes|fds|bin|log)$'
 
 # Known public hosts (allow-list; deny private / intranet URLs)
 PUBLIC_HOST_REGEX='^https?://(github\.com|raw\.githubusercontent\.com|gist\.githubusercontent\.com|iki\.fi|[a-z0-9.-]+\.iki\.fi|qmtpro\.com|bisqwit\.iki\.fi|nesdev\.org|forums\.nesdev\.org|web\.archive\.org|archive\.org)/'

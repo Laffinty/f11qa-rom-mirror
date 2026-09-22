@@ -1885,3 +1885,38 @@ Example:
 - **Verified By**: @Laffinty (OWNER), 2026-09-22
 - **Notes**: Arkanoid Vaus controller test (potentiometer + button readback).
 
+### sour/fdsirqtests/fdsirqtests.fds
+- **License**: MIT
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/fdsirqtests/fdsirqtests.fds
+- **Upstream Author**: Sour (Mesen emulator project)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: FDS IRQ timing tests v7 (Famicom Disk System disk image).
+
+### sour/fdsirqtests/fdsirqtestsV7_patched.fds
+- **License**: MIT
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/fdsirqtests/fdsirqtestsV7_patched.fds
+- **Upstream Author**: Sour (Mesen emulator project)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: FDS IRQ timing tests v7 鈥?patched variant (timer reload at first IRQ).
+
+### 3gengames/PaddleTest3/PaddleTest.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/PaddleTest3/PaddleTest.nes
+- **Upstream Author**: 3gengames (Andrew Ayers)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Arkanoid Vaus paddle controller test. Verifies paddle reads and button combinations across 3 difficulty settings.
+
+### tepples/tvpassfail/tv.nes
+- **License**: zlib
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/tvpassfail/tv.nes
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: TV pass / fail pattern: NTSC chroma-luma crosstalk test (displayed differently on RGB PPU vs NTSC NES). Verifies PPU composite-video artifact emulation accuracy.
+
+### nesstress/NEStress/NEStress.NES
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/stress/NEStress.NES
+- **Upstream Author**: Flubba (Loopy)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: NEStress: comprehensive PPU/CPU stress test. Some sub-tests are designed to fail on real hardware 鈥?used to verify emulator behavior vs documented hardware behavior.
+
