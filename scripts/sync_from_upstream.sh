@@ -476,4 +476,225 @@ main() {
     log "sync_from_upstream.sh: done"
 }
 
-main "$@"
+main "$@"    # ------------------------------------------------------------------
+    # blargg/apu/
+    # ------------------------------------------------------------------
+    fetch_rom "blargg/apu/apu_test.nes" \
+        "00d4722bae1c82a14528dd3220462d3fb9ce4b14b8cec996619dea23e07fef0a" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/apu_test.nes"
+    fetch_rom "blargg/apu/apu_test_1-len_ctr.nes" \
+        "aacf86c1d773badd11392e54506a43a06a3dd0b67a4c255909d1daf770a4a1e2" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/1-len_ctr.nes"
+    fetch_rom "blargg/apu/apu_test_2-len_table.nes" \
+        "c002ff1483b4dfb36a6eb004d49739cd58a2dff16e0bac167d5a7c12235caeeb" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/2-len_table.nes"
+    fetch_rom "blargg/apu/apu_test_3-irq_flag.nes" \
+        "dd888551665937391a2d691b1f96d1858316dbfce4951306146e9e396367f079" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/3-irq_flag.nes"
+    fetch_rom "blargg/apu/apu_test_4-jitter.nes" \
+        "bff573d72d0f134fe307f0bb8b968b8d2ffdb85e8aadad9c152839068d6db32a" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/4-jitter.nes"
+    fetch_rom "blargg/apu/apu_test_5-len_timing.nes" \
+        "4d88f8cc0b21303dc151af4d0f4169d79284634a73082d7ea1ae5cfafedd1e46" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/5-len_timing.nes"
+    fetch_rom "blargg/apu/apu_test_6-irq_flag_timing.nes" \
+        "fc1daff82dd1a49c7c1242392ffbf1c6f44fb70156868582117f2a844cc4dffd" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/6-irq_flag_timing.nes"
+    fetch_rom "blargg/apu/apu_test_7-dmc_basics.nes" \
+        "547324867ee0ba2aa11401001d8d1288530aa4e0ecaaac1667ce79980a388ec1" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/7-dmc_basics.nes"
+    fetch_rom "blargg/apu/apu_test_8-dmc_rates.nes" \
+        "5d9a79a505b37fa277cacc95a362f7e2a56e59ace7a698213d78432cc06a8867" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/8-dmc_rates.nes"
+    fetch_rom "blargg/apu/apu_mixer_dmc.nes" \
+        "036e7a3222f56e7a823b693bae0243e6c8c7ae032defbbd15c8631da468d6ea7" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_mixer/dmc.nes"
+    fetch_rom "blargg/apu/apu_mixer_noise.nes" \
+        "47b637cc911dc4416f55891c67976780e0985b6729b339a3f1db277ef6bd4910" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_mixer/noise.nes"
+    fetch_rom "blargg/apu/apu_mixer_square.nes" \
+        "b16e333a2d3698201fc45c21375507a80981928562d3b10f865e23da3922696a" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_mixer/square.nes"
+    fetch_rom "blargg/apu/apu_mixer_triangle.nes" \
+        "3756d4be75126ab51b40e013e60a125e0f6f198307dcfb9612cd4477f6762279" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_mixer/triangle.nes"
+    fetch_rom "blargg/apu/apu_reset_4015_cleared.nes" \
+        "ef83bc2831f0ddb9e563ac5cbcfa21b129f092911ef42adabae7d47b3e990d95" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/4015_cleared.nes"
+    fetch_rom "blargg/apu/apu_reset_4017_timing.nes" \
+        "0e6072c6dcee98fb73dc7f3af2e48face78be300e8510515ed48dc75d15c1f13" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/4017_timing.nes"
+    fetch_rom "blargg/apu/apu_reset_4017_written.nes" \
+        "022bd3b45a733179d9a0a9bf0311d09ca81419d7e7434e6f559e42650b39616b" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/4017_written.nes"
+    fetch_rom "blargg/apu/apu_reset_irq_flag_cleared.nes" \
+        "e2435b213bf21065b7c9c645359500c1c860a7395d12d051232ab14dad1b0bb5" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/irq_flag_cleared.nes"
+    fetch_rom "blargg/apu/apu_reset_len_ctrs_enabled.nes" \
+        "e05546cbfaa1414d9193b0212084b324ea6b13130af5f171a34c9e574f5ac373" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/len_ctrs_enabled.nes"
+    fetch_rom "blargg/apu/apu_reset_works_immediately.nes" \
+        "c750113762ee375319b1bfbf65c457875dbb194649d7e7b3594fba38eb8eefa1" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/works_immediately.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_01.len_ctr.nes" \
+        "e1e3a29ab5369ab84a6f5f2f426c64bde86b9a1d26a906739d43fbf624bb8829" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/01.len_ctr.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_02.len_table.nes" \
+        "63cc6a57fae3da5e30df9520d02b723c5b93789e8a6eef6793f876345b245b51" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/02.len_table.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_03.irq_flag.nes" \
+        "6f71c7e3de4b6c00da92c20a86c1c2095196a55dc201ee3286004ecf33a08c2f" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/03.irq_flag.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_04.clock_jitter.nes" \
+        "46fa69b26fe8c24dc1d0b5908f90ab0141972eeb607bd563d28f53d6f4543fe6" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/04.clock_jitter.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_05.len_timing_mode0.nes" \
+        "606802d6849ccfcf74e907a8512c03a50d443752d1f616e62a242a1fa7eca0ff" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/05.len_timing_mode0.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_06.len_timing_mode1.nes" \
+        "0f34e26d56ad235d8d6d63565ed4728fbd0b9b8590a4fd4048eaf64283b429d4" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/06.len_timing_mode1.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_07.irq_flag_timing.nes" \
+        "851c9698941d51da34b4bfbc9644aa08ee41b39c6c814cc9b8412c204ea68085" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/07.irq_flag_timing.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_08.irq_timing.nes" \
+        "0a20a2b9ca9a8e78d65b500b161294c889399f0ff048edd104b07b15255946ca" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/08.irq_timing.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_09.reset_timing.nes" \
+        "bb04f8328a51abb2d17e6e5362b8375f3cbfbf0641733d068b22f23e7dc588e6" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/09.reset_timing.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_10.len_halt_timing.nes" \
+        "cbdaa9a5cf9c19ba2360d3349a47922eec25a3e610374d963c422f2b67c57ac9" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/10.len_halt_timing.nes"
+    fetch_rom "blargg/apu/blargg_apu_2005_11.len_reload_timing.nes" \
+        "40e633285a4a8710780bfd80d346dee62406f4be161eb75615f469cd9e84e132" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/11.len_reload_timing.nes"
+    fetch_rom "blargg/apu/dmc_dma_during_read4_dma_2007_read.nes" \
+        "a2e0fa3f6f155cbe0b8c9517b2f6a57f1fd68f13711c11d6d2fe5676c522d7b2" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/dma_2007_read.nes"
+    fetch_rom "blargg/apu/dmc_dma_during_read4_dma_2007_write.nes" \
+        "54c75d491c685fb4cfff281bcf3e199a41e95f6c523e2b0607d67ba039f19f84" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/dma_2007_write.nes"
+    fetch_rom "blargg/apu/dmc_dma_during_read4_dma_4016_read.nes" \
+        "c6af72e11c197b449129921a9992db2351d9121bb593b3d0ab71895b646b0ebe" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/dma_4016_read.nes"
+    fetch_rom "blargg/apu/dmc_dma_during_read4_double_2007_read.nes" \
+        "779e6e7db863a7405a3dda8723b8517a23d271e78ce4802970fb0a7d3039ce6b" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/double_2007_read.nes"
+    fetch_rom "blargg/apu/dmc_dma_during_read4_read_write_2007.nes" \
+        "bc5281ca3f12a6d0ac9fe1a5e727ecc3cac5fc6a47f45ac130d644f0dbd522cf" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/read_write_2007.nes"
+    fetch_rom "blargg/apu/dmc_tests_buffer_retained.nes" \
+        "32aaccfa2fda811d1127feeaf4dcf36cf1803cca866800c71815dfb86254daae" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_tests/buffer_retained.nes"
+    fetch_rom "blargg/apu/dmc_tests_latency.nes" \
+        "346c182ce408280a4fb14513f18ae519b135136a250ed3738abc295a6a1b2208" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_tests/latency.nes"
+    fetch_rom "blargg/apu/dmc_tests_status.nes" \
+        "ef18582e0625dfe522bdf2f8b0b16cd221c630940fbc97c52c8cf23832ce92bd" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_tests/status.nes"
+    fetch_rom "blargg/apu/dmc_tests_status_irq.nes" \
+        "81013c38721e966f037969aae7c66a5f904fc706f96437910b93f7262cb77a70" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_tests/status_irq.nes"
+    fetch_rom "blargg/apu/dpcmletterbox.nes" \
+        "dbf91829a13baa8ab672fb6846be7c5ca8f5e2826ef939c189e261ed9ba43729" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dpcmletterbox/dpcmletterbox.nes"
+    fetch_rom "blargg/apu/pal_apu_01.len_ctr.nes" \
+        "5e4a07738703232dfefce6a26f12da304f333008c60224b27e7fbadf4a7cdc0c" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/01.len_ctr.nes"
+    fetch_rom "blargg/apu/pal_apu_02.len_table.nes" \
+        "ac5537885469a85e733df1a7a6a0a76a76f157f080c60d04f1128902a45423d4" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/02.len_table.nes"
+    fetch_rom "blargg/apu/pal_apu_03.irq_flag.nes" \
+        "e0c04111c61d0fc671990c5c3ac6cb7f57082ad687b5e11d380277c7d75e56d1" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/03.irq_flag.nes"
+    fetch_rom "blargg/apu/pal_apu_04.clock_jitter.nes" \
+        "dc85b14f7ece5e7bd4010b831f5b796debfdf338837c8a29a1d221de8c63776d" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/04.clock_jitter.nes"
+    fetch_rom "blargg/apu/pal_apu_05.len_timing_mode0.nes" \
+        "04896f081373f5ab6ce83ce115c5fc0ff823acf831f1499d7d406f4a651e7cbc" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/05.len_timing_mode0.nes"
+    fetch_rom "blargg/apu/pal_apu_06.len_timing_mode1.nes" \
+        "454b1b6339bd2ea27e3f4e8a8de7e2d95e3afc26940a88255e24a033d42d5a05" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/06.len_timing_mode1.nes"
+    fetch_rom "blargg/apu/pal_apu_07.irq_flag_timing.nes" \
+        "c91aa1fc7bcb2638f3b07996270eb38c67e8b0fefa1a0db02a34b2e2ffd883c7" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/07.irq_flag_timing.nes"
+    fetch_rom "blargg/apu/pal_apu_08.irq_timing.nes" \
+        "dee9e8fac623327b04e8160456362cc1fe4ca0b2c8e3f45eedcb6851ebb00aae" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/08.irq_timing.nes"
+    fetch_rom "blargg/apu/pal_apu_10.len_halt_timing.nes" \
+        "c41238ed0e7f4044c21fcd14c99b9e4516611adbee5c5f139d3bb95bebebcec9" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/10.len_halt_timing.nes"
+    fetch_rom "blargg/apu/pal_apu_11.len_reload_timing.nes" \
+        "1e94a9c0d829378f93b460c2c5f875418490401afd50c30cd05ea22113819909" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/11.len_reload_timing.nes"
+    fetch_rom "blargg/apu/soundtest.nes" \
+        "baae326d642b95637d56d4964a0bbd93799088aad111a6fb718193d33e6f4d29" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/soundtest/SNDTEST.NES"
+    # ------------------------------------------------------------------
+    # blargg/mmc3/
+    # ------------------------------------------------------------------
+    fetch_rom "blargg/mmc3/mmc3_test_1-clocking.nes" \
+        "57c77c66edde8c45e17bda02691dd3c7fd0b270c1ec024dff4e11a7778dfaa37" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/1-clocking.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_2-details.nes" \
+        "89e1f16514aafeee90b5ab849dd73dbf1456dbd363ec2e3b798461125a33068a" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/2-details.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_3-A12_clocking.nes" \
+        "dc6779b3d64e27b8d3b2b6dee7a1b528b9b6401ac0e6a9a1d5ab928dcd8ad6bb" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/3-A12_clocking.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_4-scanline_timing.nes" \
+        "0474550dbf811bf1acda2178bf355edd5c100088479a09d881f84994c1690b82" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/4-scanline_timing.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_5-MMC3.nes" \
+        "f714089b5d056a50d63854a8d13359914d20d6144d8b25e48f880116ae73d8fd" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/5-MMC3.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_6-MMC6.nes" \
+        "e6bdbadf46cc4bf7b26e496ecab44e60a8b1279c1b9cf16df090c9832adf6943" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/6-MMC6.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_2_1-clocking.nes" \
+        "b06d8a97f0ca672be92c841d6af7d1e650696e86e9cc0cf6eeb90d67a6ab499b" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/1-clocking.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_2_2-details.nes" \
+        "e7af16c764b119e60effb7b1cfeec3dd8e2e657041283693cdbbeedb4081f1e3" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/2-details.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_2_3-A12_clocking.nes" \
+        "b375f15b9f9d372c8084b9c50928be9e41a3ac48be831ce82d203c18891433ad" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/3-A12_clocking.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_2_4-scanline_timing.nes" \
+        "14a220b9d1272acc7a820ab38e9762a7cdf2d54c65e753be87f23dfcaf1bb845" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/4-scanline_timing.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_2_5-MMC3.nes" \
+        "e0824123d60b83868dac1189b28250f8e10376a01be468a5a74aa59937cb32ca" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/5-MMC3.nes"
+    fetch_rom "blargg/mmc3/mmc3_test_2_6-MMC3_alt.nes" \
+        "56698b6918453d161a8d4e51f66e363d6966b054939c8176c53c401a6b55269b" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/6-MMC3_alt.nes"
+    fetch_rom "blargg/mmc3/mmc3_irq_1.Clocking.nes" \
+        "699d0644bd2b6ff4c9ba598c9609f4a3da536594b6363585b2caf82cf337ac88" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/1.Clocking.nes"
+    fetch_rom "blargg/mmc3/mmc3_irq_2.Details.nes" \
+        "0af95238b69806c072c28aed0fa8ad812157dfee928a6c9cea8d5420268baade" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/2.Details.nes"
+    fetch_rom "blargg/mmc3/mmc3_irq_3.A12_clocking.nes" \
+        "3b936e1079f12bdc5e55aa82def017ddc76fd79e3879ff0478d41ca718302e7c" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/3.A12_clocking.nes"
+    fetch_rom "blargg/mmc3/mmc3_irq_4.Scanline_timing.nes" \
+        "3369e8f73a96ec97918c6c9440804a369a19256c57df91e62881555f21528894" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/4.Scanline_timing.nes"
+    fetch_rom "blargg/mmc3/mmc3_irq_5.MMC3_rev_A.nes" \
+        "6b662c2d08ee4094d89b6d1ddde330e47f81929fb642dc217b6e4c33f8926944" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/5.MMC3_rev_A.nes"
+    fetch_rom "blargg/mmc3/mmc3_irq_6.MMC3_rev_B.nes" \
+        "d8a2af42cdafe8046b36109e6f6ff71ca0d7f5d62c7d5953e0aa1d1828a86088" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/6.MMC3_rev_B.nes"
+    # ------------------------------------------------------------------
+    # blargg/sprdma/
+    # ------------------------------------------------------------------
+    fetch_rom "blargg/sprdma/sprdma_and_dmc_dma.nes" \
+        "db3199bc1b0bdc07a316b3ab999d8fd8bb361456d2154e364c132cb06a26a10f" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprdma_and_dmc_dma/sprdma_and_dmc_dma.nes"
+    fetch_rom "blargg/sprdma/sprdma_and_dmc_dma_512.nes" \
+        "3789f5134b0561b4344e3f4ce08b4d2a416f67435e083917a80d87fdb9d3583c" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprdma_and_dmc_dma/sprdma_and_dmc_dma_512.nes"

@@ -926,3 +926,500 @@ Example:
 - **Upstream Author**: Kevin Horton (kevtris)
 - **Verified By**: @Laffinty (OWNER), 2026-09-21
 - **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Hosted on qmtpro.com (Quietust) by permission of author. Reference execution log for nestest.nes (kevtris). 8991 CPU instruction trace lines used for emulator verification.
+### blargg/apu/apu_test.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/apu_test.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU general test suite (NTSC, all sub-tests), $6000 result protocol.
+
+### blargg/apu/apu_test_1-len_ctr.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/1-len_ctr.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter halt/reset behavior (NTSC, sub-test 1).
+
+### blargg/apu/apu_test_2-len_table.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/2-len_table.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter lookup table values (NTSC, sub-test 2).
+
+### blargg/apu/apu_test_3-irq_flag.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/3-irq_flag.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU frame counter IRQ flag set/clear (NTSC, sub-test 3).
+
+### blargg/apu/apu_test_4-jitter.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/4-jitter.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU frame counter timing jitter (NTSC, sub-test 4).
+
+### blargg/apu/apu_test_5-len_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/5-len_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter reload/timing (NTSC, sub-test 5).
+
+### blargg/apu/apu_test_6-irq_flag_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/6-irq_flag_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU IRQ flag set timing (NTSC, sub-test 6).
+
+### blargg/apu/apu_test_7-dmc_basics.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/7-dmc_basics.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC channel basics (NTSC, sub-test 7).
+
+### blargg/apu/apu_test_8-dmc_rates.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_test/rom_singles/8-dmc_rates.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC sample rate lookup (NTSC, sub-test 8).
+
+### blargg/apu/apu_mixer_dmc.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_mixer/dmc.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC channel mixer test (NTSC). Auditory pass/fail by ear.
+
+### blargg/apu/apu_mixer_noise.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_mixer/noise.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Noise channel mixer test (NTSC). Auditory pass/fail by ear.
+
+### blargg/apu/apu_mixer_square.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_mixer/square.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Square channel mixer test (NTSC). Auditory pass/fail by ear.
+
+### blargg/apu/apu_mixer_triangle.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_mixer/triangle.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Triangle channel mixer test (NTSC). Auditory pass/fail by ear.
+
+### blargg/apu/apu_reset_4015_cleared.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/4015_cleared.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU reset state after $4015 status register cleared.
+
+### blargg/apu/apu_reset_4017_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/4017_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU reset via $4017 write timing.
+
+### blargg/apu/apu_reset_4017_written.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/4017_written.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU reset via $4017 write.
+
+### blargg/apu/apu_reset_irq_flag_cleared.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/irq_flag_cleared.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU IRQ flag cleared on reset.
+
+### blargg/apu/apu_reset_len_ctrs_enabled.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/len_ctrs_enabled.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counters enabled immediately after reset.
+
+### blargg/apu/apu_reset_works_immediately.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/apu_reset/works_immediately.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU works immediately after power-on without reset.
+
+### blargg/apu/blargg_apu_2005_01.len_ctr.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/01.len_ctr.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter halt behavior (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_02.len_table.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/02.len_table.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter lookup table (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_03.irq_flag.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/03.irq_flag.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU frame counter IRQ flag (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_04.clock_jitter.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/04.clock_jitter.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU frame counter clock jitter (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_05.len_timing_mode0.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/05.len_timing_mode0.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter timing mode 0 (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_06.len_timing_mode1.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/06.len_timing_mode1.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter timing mode 1 (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_07.irq_flag_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/07.irq_flag_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU IRQ flag set timing (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_08.irq_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/08.irq_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU IRQ timing (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_09.reset_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/09.reset_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU reset timing (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_10.len_halt_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/10.len_halt_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter halt timing (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/blargg_apu_2005_11.len_reload_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/blargg_apu_2005.07.30/11.len_reload_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter reload timing (NTSC, blargg 2005.07.30 release).
+
+### blargg/apu/dmc_dma_during_read4_dma_2007_read.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/dma_2007_read.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC DMA conflict during $2007 PPU read.
+
+### blargg/apu/dmc_dma_during_read4_dma_2007_write.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/dma_2007_write.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC DMA conflict during $2007 PPU write.
+
+### blargg/apu/dmc_dma_during_read4_dma_4016_read.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/dma_4016_read.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC DMA conflict during $4016 controller read.
+
+### blargg/apu/dmc_dma_during_read4_double_2007_read.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/double_2007_read.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC DMA conflict during consecutive $2007 reads.
+
+### blargg/apu/dmc_dma_during_read4_read_write_2007.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_dma_during_read4/read_write_2007.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC DMA conflict during $2007 read+write cycle.
+
+### blargg/apu/dmc_tests_buffer_retained.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_tests/buffer_retained.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC sample buffer byte retained across silence.
+
+### blargg/apu/dmc_tests_latency.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_tests/latency.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC fetch latency after $4015 write.
+
+### blargg/apu/dmc_tests_status.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_tests/status.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC status register ($4015) read state.
+
+### blargg/apu/dmc_tests_status_irq.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dmc_tests/status_irq.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DMC IRQ flag clearing in $4015 status read.
+
+### blargg/apu/dpcmletterbox.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/dpcmletterbox/dpcmletterbox.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. DPCM IRQ letterbox timing test (mapper 0x0B / 0x0D compatible).
+
+### blargg/apu/pal_apu_01.len_ctr.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/01.len_ctr.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter halt (PAL, pal_apu_tests release).
+
+### blargg/apu/pal_apu_02.len_table.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/02.len_table.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter lookup table (PAL).
+
+### blargg/apu/pal_apu_03.irq_flag.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/03.irq_flag.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU frame counter IRQ flag (PAL).
+
+### blargg/apu/pal_apu_04.clock_jitter.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/04.clock_jitter.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU frame counter clock jitter (PAL).
+
+### blargg/apu/pal_apu_05.len_timing_mode0.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/05.len_timing_mode0.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter timing mode 0 (PAL).
+
+### blargg/apu/pal_apu_06.len_timing_mode1.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/06.len_timing_mode1.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter timing mode 1 (PAL).
+
+### blargg/apu/pal_apu_07.irq_flag_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/07.irq_flag_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU IRQ flag set timing (PAL).
+
+### blargg/apu/pal_apu_08.irq_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/08.irq_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU IRQ timing (PAL).
+
+### blargg/apu/pal_apu_10.len_halt_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/10.len_halt_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter halt timing (PAL).
+
+### blargg/apu/pal_apu_11.len_reload_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/pal_apu_tests/11.len_reload_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. APU length counter reload timing (PAL).
+
+### blargg/apu/soundtest.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/soundtest/SNDTEST.NES
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. SNDTEST: raw audio register write test harness.
+
+### blargg/mmc3/mmc3_test_1-clocking.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/1-clocking.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 A12 pin clocking / IRQ counter (rev 1, blargg).
+
+### blargg/mmc3/mmc3_test_2-details.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/2-details.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 IRQ counter details: reload / acknowledge / wrap (rev 1, blargg).
+
+### blargg/mmc3/mmc3_test_3-A12_clocking.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/3-A12_clocking.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 A12 pin clocking on bank register select (rev 1, blargg).
+
+### blargg/mmc3/mmc3_test_4-scanline_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/4-scanline_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 scanline counter A12 timing (rev 1, blargg).
+
+### blargg/mmc3/mmc3_test_5-MMC3.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/5-MMC3.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 chip behavior vs documented hardware (rev 1, blargg).
+
+### blargg/mmc3/mmc3_test_6-MMC6.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test/6-MMC6.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC6 (MMC3 variant used in some MCK boards) behavior (rev 1, blargg).
+
+### blargg/mmc3/mmc3_test_2_1-clocking.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/1-clocking.nes
+- **Upstream Author**: Fiskbit
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 A12 pin clocking / IRQ counter (rev 2, 2017 by Fiskbit).
+
+### blargg/mmc3/mmc3_test_2_2-details.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/2-details.nes
+- **Upstream Author**: Fiskbit
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 IRQ counter details: reload / acknowledge / wrap (rev 2, 2017 by Fiskbit).
+
+### blargg/mmc3/mmc3_test_2_3-A12_clocking.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/3-A12_clocking.nes
+- **Upstream Author**: Fiskbit
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 A12 pin clocking on bank register select (rev 2, 2017 by Fiskbit).
+
+### blargg/mmc3/mmc3_test_2_4-scanline_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/4-scanline_timing.nes
+- **Upstream Author**: Fiskbit
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 scanline counter A12 timing (rev 2, 2017 by Fiskbit).
+
+### blargg/mmc3/mmc3_test_2_5-MMC3.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/5-MMC3.nes
+- **Upstream Author**: Fiskbit
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 chip behavior vs documented hardware (rev 2, 2017 by Fiskbit).
+
+### blargg/mmc3/mmc3_test_2_6-MMC3_alt.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_test_2/rom_singles/6-MMC3_alt.nes
+- **Upstream Author**: Fiskbit
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 alternate behavior scenarios (rev 2, 2017 by Fiskbit).
+
+### blargg/mmc3/mmc3_irq_1.Clocking.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/1.Clocking.nes
+- **Upstream Author**: lidnariq
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 IRQ clocking: edge cases at $2000 write / $2001 scanline reset.
+
+### blargg/mmc3/mmc3_irq_2.Details.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/2.Details.nes
+- **Upstream Author**: lidnariq
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 IRQ counter / pending flag / acknowledge details.
+
+### blargg/mmc3/mmc3_irq_3.A12_clocking.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/3.A12_clocking.nes
+- **Upstream Author**: lidnariq
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 IRQ A12 clocking: precise cycle counts.
+
+### blargg/mmc3/mmc3_irq_4.Scanline_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/4.Scanline_timing.nes
+- **Upstream Author**: lidnariq
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 IRQ scanline timing at boundary.
+
+### blargg/mmc3/mmc3_irq_5.MMC3_rev_A.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/5.MMC3_rev_A.nes
+- **Upstream Author**: lidnariq
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 revision A IRQ quirks.
+
+### blargg/mmc3/mmc3_irq_6.MMC3_rev_B.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc3_irq_tests/6.MMC3_rev_B.nes
+- **Upstream Author**: lidnariq
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 revision B IRQ quirks.
+
+### blargg/sprdma/sprdma_and_dmc_dma.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprdma_and_dmc_dma/sprdma_and_dmc_dma.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Sprite DMA during DMC DMA test (NROM-256). PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Tests sprite DMA conflict with DMC DMA fetch
+
+### blargg/sprdma/sprdma_and_dmc_dma_512.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/sprdma_and_dmc_dma/sprdma_and_dmc_dma_512.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Sprite DMA during DMC DMA test (NROM-512 / MMC3 512K variant). PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Same test as sprdma_and_dmc_dma.nes but for 512K board layout.
+
