@@ -1780,3 +1780,108 @@ Example:
 - **Verified By**: @Laffinty (OWNER), 2026-09-22
 - **Notes**: Quietust (qmtpro.com) PD test ROM. Aspect ratio measurement utility (PPU square pattern). Internal archive path: square.nes
 
+### blargg/vbl_nmi_timing/1.frame_basics.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/1.frame_basics.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NTSC PPU VBL/NMI timing 鈥?frame basics (sub-test 1).
+
+### blargg/vbl_nmi_timing/2.vbl_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/2.vbl_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NTSC PPU VBL flag timing (sub-test 2).
+
+### blargg/vbl_nmi_timing/3.even_odd_frames.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/3.even_odd_frames.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NTSC PPU even/odd frame timing (sub-test 3).
+
+### blargg/vbl_nmi_timing/4.vbl_clear_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/4.vbl_clear_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NTSC PPU VBL clear timing (sub-test 4).
+
+### blargg/vbl_nmi_timing/5.nmi_suppression.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/5.nmi_suppression.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NTSC PPU NMI suppression (sub-test 5).
+
+### blargg/vbl_nmi_timing/6.nmi_disable.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/6.nmi_disable.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NTSC PPU NMI disable timing (sub-test 6).
+
+### blargg/vbl_nmi_timing/7.nmi_timing.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/7.nmi_timing.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NTSC PPU NMI assertion timing (sub-test 7).
+
+### blargg/read_joy3/count_errors.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/read_joy3/count_errors.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NES controller $4016/$4017 read error count (DMC DMA corruption test).
+
+### blargg/read_joy3/count_errors_fast.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/read_joy3/count_errors_fast.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NES controller read error count 鈥?fast variant (shorter run).
+
+### blargg/read_joy3/test_buttons.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/read_joy3/test_buttons.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NES controller button visual test (single-button press visual feedback).
+
+### blargg/read_joy3/thorough_test.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/read_joy3/thorough_test.nes
+- **Upstream Author**: Shay Green (blargg)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. NES controller thorough test (multi-button, multi-frame).
+
+### awj/mmc5test_v2/mmc5test.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc5test_v2/mmc5test.nes
+- **Upstream Author**: AWJ
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC5 mapper v2 test (full coverage incl. PRG/CHR banking, split mode).
+
+### drag/mmc5test/mmc5test.nes
+- **License**: PD
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc5test/mmc5test.nes
+- **Upstream Author**: drag
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC5 mapper v1 test (original, pre-AWJ-revision).
+
+### damianyerrick/volume_tests/volumes.nes
+- **License**: zlib
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/volume_tests/volumes.nes
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: NES audio channel balance / mixer test (square / triangle / noise / DMC).
+
+### damianyerrick/vaus-test/vaus-test.nes
+- **License**: zlib
+- **Upstream URL**: https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vaus-test/vaus-test.nes
+- **Upstream Author**: Damian Yerrick (pinobatch / Tepples)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Arkanoid Vaus controller test (potentiometer + button readback).
+

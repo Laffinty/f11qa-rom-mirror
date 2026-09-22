@@ -863,3 +863,69 @@ main "$@"    # -----------------------------------------------------------------
     fetch_rom "quietust/square.nes" \
         "fbfb396f5652e39494a1a140be8171d7a58f500b5b5ee53e34f5601341b748ee" \
         "http://qmtpro.com/~nes/demos/square.zip"
+    # ------------------------------------------------------------------
+    # Phase D: blargg/vbl_nmi_timing + blargg/read_joy3 + awj/mmc5test_v2 + drag/mmc5test + damianyerrick/{volume_tests,vaus-test}
+    # ------------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # blargg/vbl_nmi_timing/  (blargg, NTSC VBL/NMI timing)
+    # ------------------------------------------------------------------
+    fetch_rom "blargg/vbl_nmi_timing/1.frame_basics.nes" \
+        "719bf4b4ea9022aad4216b159f59846ea57f98c8bddc5069b70286f5b810e998" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/1.frame_basics.nes"
+    fetch_rom "blargg/vbl_nmi_timing/2.vbl_timing.nes" \
+        "39231f002784b62e5d0ab67735855198b6b62c6c6ef06b0549333cd818879fb2" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/2.vbl_timing.nes"
+    fetch_rom "blargg/vbl_nmi_timing/3.even_odd_frames.nes" \
+        "268d5e305ab73a29ff524906f92db7da1944763ea3de464e14a44c5b4199049e" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/3.even_odd_frames.nes"
+    fetch_rom "blargg/vbl_nmi_timing/4.vbl_clear_timing.nes" \
+        "8552a65de49b677cdf7fd419f5ac51f96766786e1e1442f6f9d62c87f4c15c2c" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/4.vbl_clear_timing.nes"
+    fetch_rom "blargg/vbl_nmi_timing/5.nmi_suppression.nes" \
+        "059c8df6a9b41a95e827608f1c0edb496b763e0c2b861f22614f5f228f1e10aa" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/5.nmi_suppression.nes"
+    fetch_rom "blargg/vbl_nmi_timing/6.nmi_disable.nes" \
+        "4573dcff3c57351b0e6ce76d86334586ba3d1cd6d4f9ec014887e94912f543cf" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/6.nmi_disable.nes"
+    fetch_rom "blargg/vbl_nmi_timing/7.nmi_timing.nes" \
+        "26a2475828ef9ebd6178129f530a8aaa6f9f1ddd493616f1524d8323d6e56a4c" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vbl_nmi_timing/7.nmi_timing.nes"
+    # ------------------------------------------------------------------
+    # blargg/read_joy3/      (blargg, controller read tests)
+    # ------------------------------------------------------------------
+    fetch_rom "blargg/read_joy3/count_errors.nes" \
+        "3cfa68394b8202d5fb84b8b0bea9994de70ed7b12ce2f70117edb1e4332cf2ea" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/read_joy3/count_errors.nes"
+    fetch_rom "blargg/read_joy3/count_errors_fast.nes" \
+        "6f2899711449e126e0804898c28bc97f993d7802cece30c12e60ee12bd3b0d6e" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/read_joy3/count_errors_fast.nes"
+    fetch_rom "blargg/read_joy3/test_buttons.nes" \
+        "15f53317fd2adf8454256fdafb4ea6c5fb27940166adcdadd17e9e6fb94fdfac" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/read_joy3/test_buttons.nes"
+    fetch_rom "blargg/read_joy3/thorough_test.nes" \
+        "e59de3d542043acd1dbca1e499ea9987b581f8be168ba88603e6e90826f87cf9" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/read_joy3/thorough_test.nes"
+    # ------------------------------------------------------------------
+    # awj/mmc5test_v2/       (AWJ, MMC5 mapper v2)
+    # ------------------------------------------------------------------
+    fetch_rom "awj/mmc5test_v2/mmc5test.nes" \
+        "f18f60a27cae9c00b51782caa3b77cf96a11e1c45e4323a9815474728e5b2980" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc5test_v2/mmc5test.nes"
+    # ------------------------------------------------------------------
+    # drag/mmc5test/        (drag, MMC5 mapper v1)
+    # ------------------------------------------------------------------
+    fetch_rom "drag/mmc5test/mmc5test.nes" \
+        "540eaebed9d44067c57de352719fbc3582bbea3946ec3d4d1cfd2a6c0a31c819" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/mmc5test/mmc5test.nes"
+    # ------------------------------------------------------------------
+    # damianyerrick/volume_tests/  (Damian Yerrick, audio mixer)
+    # ------------------------------------------------------------------
+    fetch_rom "damianyerrick/volume_tests/volumes.nes" \
+        "36c4628d400212adb61bc08f2f7b32c522e4c2d3ae949d35304ea4b12fed0df8" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/volume_tests/volumes.nes"
+    # ------------------------------------------------------------------
+    # damianyerrick/vaus-test/     (Damian Yerrick, Arkanoid controller)
+    # ------------------------------------------------------------------
+    fetch_rom "damianyerrick/vaus-test/vaus-test.nes" \
+        "0de3f3de7c8c94261b8b280e2e20e3d5ed0d279afd7117385b0ec7bbd19f50cc" \
+        "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/vaus-test/vaus-test.nes"
