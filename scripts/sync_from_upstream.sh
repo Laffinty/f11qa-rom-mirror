@@ -959,3 +959,54 @@ main "$@"    # -----------------------------------------------------------------
     fetch_rom "nesstress/NEStress/NEStress.NES" \
         "971783427c1c52fcffb93c79a6962b165d4b6859fd6accc44ba78958a1f3c09b" \
         "https://raw.githubusercontent.com/christopherpow/nes-test-roms/master/stress/NEStress.NES"
+    # ------------------------------------------------------------------
+    # Phase D batch 3: pinobatch/little-things-nes v20.10 release (tepples)
+    # ------------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # tepples/test28/  (Mapper 28 (Action 53) PRG banking tests)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/test28/test28.nes" \
+        "b6f6715f3003d401b81a721abef74156756c412262a8acb73da3facbdcc70e6b" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/test28/test28-8Mbit.nes" \
+        "b69073bb5225ed976cd7bd4e2eb39d0aac7edf4fc26371c398839d1e19511f5f" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/mmc3bigchrram/  (MMC3 with 256K CHR-RAM test)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/mmc3bigchrram/mmc3bigchrram.nes" \
+        "f57619ffb29110da6cb5e553ac4553e5199cd05d068929c913d27937702d69b7" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/fme7/  (Sunsoft FME-7 mapper tests)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/fme7/fme7acktest.nes" \
+        "3f0e8e8856a3829293c8046b607e3ae39b47728b3527ce4c5effda2c004bd53d" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/fme7/fme7ramtest.nes" \
+        "e003b06c00ad7f2d52bf5380f6a9ae2dca28e52d87f8c275ed33ff019f86ce18" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/tellinglys/  (Controller port polling timing test)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/tellinglys/tellinglys.nes" \
+        "34ca5f35dc0ff1a3ba5e0559823bf08eacf3e61184ce31e1755a7174e3a9c147" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/bntest/  (BNROM (mapper 34) test variants)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/bntest/bntest-aorom.nes" \
+        "a119b54ec4c921e89812e667b4865afde990f6a31fda45b30cacbadfd0e9ba41" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/bntest/bntest-h.nes" \
+        "e89e3450fe9fa005c09ce5dfc0298b46529a5ca26888031e337447cf48b8a561" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    fetch_rom "tepples/bntest/bntest-v.nes" \
+        "31f2d8b8e602a9b25d465bb153997cb31268bb0473a3d4b51e4f99e1ce83fb6b" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"
+    # ------------------------------------------------------------------
+    # tepples/porttest/  (Expansion port diagnostic)
+    # ------------------------------------------------------------------
+    fetch_rom "tepples/porttest/porttest.nes" \
+        "9ef7a10f4dc0db6512b7dafce937f9b43e9f0da20b6a092847622c71bf614b76" \
+        "https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip"

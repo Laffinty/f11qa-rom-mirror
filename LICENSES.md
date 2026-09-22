@@ -1920,3 +1920,73 @@ Example:
 - **Verified By**: @Laffinty (OWNER), 2026-09-22
 - **Notes**: NEStress: comprehensive PPU/CPU stress test. Some sub-tests are designed to fail on real hardware 鈥?used to verify emulator behavior vs documented hardware behavior.
 
+### tepples/test28/test28.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 28 (Action 53) PRG banking test. Tests reset-in-last-bank and warm/cold boot signature. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: test28/test28.nes
+
+### tepples/test28/test28-8Mbit.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Mapper 28 (Action 53) PRG banking test, 8Mbit (PRG-ROM-only) variant. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: test28/test28-8Mbit.nes
+
+### tepples/mmc3bigchrram/mmc3bigchrram.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: MMC3 with 256 KiB CHR-RAM (vs default 8 KiB CHR-ROM) test. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: mmc3bigchrram/mmc3bigchrram.nes
+
+### tepples/fme7/fme7acktest.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Sunsoft FME-7 mapper IRQ acknowledge timing test. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: fme7acktest/fme7acktest.nes
+
+### tepples/fme7/fme7ramtest.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: Sunsoft FME-7 mapper work-RAM selectability test. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: fme7ramtest/fme7ramtest.nes
+
+### tepples/tellinglys/tellinglys.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: "Telling LYs" controller port polling timing test. Detects emulators that always-change-button-state-at-vblank (lie about timing). Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: tellinglys/tellinglys.nes
+
+### tepples/bntest/bntest-aorom.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: BNROM (mapper 34) PRG banking test, AOROM 8KB mirroring variant. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: bntest/bntest-aorom.nes
+
+### tepples/bntest/bntest-h.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: BNROM (mapper 34) PRG banking test, horizontal mirroring variant. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: bntest/bntest-h.nes
+
+### tepples/bntest/bntest-v.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: BNROM (mapper 34) PRG banking test, vertical mirroring variant. Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: bntest/bntest-v.nes
+
+### tepples/porttest/porttest.nes
+- **License**: zlib
+- **Upstream URL**: https://github.com/pinobatch/little-things-nes/releases/download/v20.10/little-things-nes-20.10.zip
+- **Upstream Author**: Damian Yerrick (tepples / pinobatch)
+- **Verified By**: @Laffinty (OWNER), 2026-09-22
+- **Notes**: NES expansion port diagnostic (controller port latch behavior). Extracted from pinobatch/little-things-nes v20.10 release archive (https://github.com/pinobatch/little-things-nes/releases/tag/v20.10), internal archive path: porttest/porttest.nes
+
