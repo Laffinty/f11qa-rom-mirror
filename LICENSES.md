@@ -376,6 +376,93 @@ Example:
 
 ---
 
+## Phase D batch 5（2026-09-23/24）— Wayback Machine sourced ROMs
+
+来源：沙箱内通过 `https://web.archive.org/web/{ts}id_/https://forums.nesdev.org/download/file.php?id=NNNN`（Wayback Machine 2017/2018 缓存）拉取；forums.nesdev.org 当前 Cloudflare 拦。Upstream URL 字段保留**canonical forums.nesdev.org URL**作为归属溯源，sync_from_upstream.sh 内 fetch_rom 链路：第 1 源 = forum，第 2 源 = wayback（ts 2017id_），第 3 源 = wayback 最新 snapshot。
+
+### lidnariq/serom/serom.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=3753
+- **Upstream Author**: lidnariq
+- **Original Date**: 2014
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: f19917262de1732314043c5177c0a67fdf09d3194ee34c6cecb626af81353ec4
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Tests the constraints of SEROM / SHROM / SH1ROM variations of the MMC1 boards. Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=3753
+
+### lidnariq/oamtest3/oamtest3.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=1537
+- **Upstream Author**: lidnariq
+- **Original Date**: 2014
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: b1a00f97c4109cf574b36b0668e86ffea3f118654c043a6d892bb6af2dfd4ade
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Utility to upload OAM data via $2003/$2004 — used to test OAMADDR bug behavior. Zip archive originally contained `oam3.nes` (same SHA-256). Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=1537
+
+### lidnariq/vaus/vaus.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=21972
+- **Upstream Author**: lidnariq
+- **Original Date**: 2018
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: e0ad8b6294f6f85376111d8a215315147408238375bc4f9874861590493a277e
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Arkanoid controller 9-bit result test (separate from tepples/damianyerrick vaus-test variants). Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=21972
+
+### lidnariq/characterize-vs/characterize-vs.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=1415
+- **Upstream Author**: lidnariq
+- **Original Date**: 2010
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: ff6a93e07d5b996ea6abde93e7549e04cf53b3c56f9cc1cbb7d41d428a1443c1
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. VS System tests. Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=1415
+
+### rahsennor/dma_sync_test_v2/dma_sync_test_v2.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=5905
+- **Upstream Author**: Rahsennor
+- **Original Date**: 2014
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: f3e54f9a760880c6cb2e7cd2d87a11d21193de33e4ec06ca1e11df6df0829702
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Tests DMC DMA read corruption. Upstream zip contained file as `dma_sync_test.nes` (no _v2 suffix). Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=5905
+
+### rahsennor/apu_phase_reset/apu_phase_reset.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=7496
+- **Upstream Author**: Rahsennor
+- **Original Date**: 2016
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: a1f7a6fd4b2748038c23b06c21ae45149a8742ba8666681f82521f0f621d7d04
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Tests correct square channel behavior when writing to $4003/$4007 (reset the duty cycle sequencers but not the clock dividers). Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=7496
+
+### bntest/bntest_aorom.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=2253
+- **Upstream Author**: Damian Yerrick (tepples)
+- **Original Date**: 2014
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: efb4503a052bcf9653daab730a3fee3efb709599555c0c4be59afa2e7a76082b
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Original BNTest AxROM variant from nesdev 论坛附件 (id=2253, tepples 首发)。**与 `tepples/bntest/bntest-aorom.nes` SHA-256 不同**——后者来自 pinobatch/little-things-nes v20.10 release，是 tepples 后来重发的版本。两者并存以保留版本演进痕迹。Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=2253
+
+### rainwarrior/bxrom_512k_test/bxrom_512k_test.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=2247
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2014
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: f533808987faf4ec81389eacbf6365db27f586ce3467d17ee364dd84023b0b32
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Tests whether emulator/device supports oversize 512 KiB BxROM (mapper 34) PRG. Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=2247 (direct .nes binary, not zip)
+
+### rainwarrior/mmc5ramsize/mmc5ramsize.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=16392
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2020
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: 9d3c91b600174121c93af0fe2291930e3004ae2add197aeb83ae78e025f77925
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC5 large PRG-RAM size support tests. Upstream zip contained file as `mmc5ramsize_s_ines1.nes` (iNES 1 header). Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=16392
+
+---
+
 ## License Policy
 
 ### 接受的 license
