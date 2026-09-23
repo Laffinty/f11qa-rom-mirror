@@ -14,13 +14,13 @@
 | 4 | Holy Mapperel | `holy_mapperel/` | github.com/pinobatch/holy-mapperel | — | zlib | 未 vendor |
 | 5 | 240pee | `240pee/` | github.com/pinobatch/240p-test-mini | forums.nesdev.com | GPL | 未 vendor |
 | 6 | Quietust | `quietust/` | qmtpro.com/~nes | — | PD | 未 vendor |
-| 7 | rainwarrior | `rainwarrior/` | github.com/christopherpow/nes-test-roms（多仓分散） | pinobatch | PD / zlib | 未 vendor |
+| 7 | rainwarrior | `rainwarrior/` | forums.nesdev.org（附件，单 ROM 散落） + rainwarrior.ca | pinobatch（无 GitHub release） | PD / zlib | ⏸ 暂搁（2026-09-23：单 ROM 在沙箱内全部 404；forums.nesdev.org Cloudflare 拦；web.archive.org 无 .nes 实体；见 §暂搁套件） |
 | 8 | tepples | `tepples/` | christopherpow/nes-test-roms + tepples GitHub | — | PD / zlib | 未 vendor |
 | 9 | AWJ | `awj/` | forums.nesdev.org（附件） | — | PD | 未 vendor |
 | 10 | natt | `natt/` | forums.nesdev.org + mediafire（老链） | web.archive.org | PD | 未 vendor |
 | 11 | nk | `nk/` | forums.nesdev.org（附件） | — | PD | 未 vendor |
 | 12 | drag | `drag/` | forums.nesdev.org（附件） | — | PD | 未 vendor |
-| 13 | TakuikaNinja | `takuikaninja/` | github.com/TakuikaNinja（多仓） | — | GPL / MIT | 未 vendor |
+| 13 | TakuikaNinja | `takuikaninja/` | github.com/TakuikaNinja（4 个 FDS repo 各自独立 release） | — | 未知 | ⏸ 暂搁（2026-09-23：4 个上游 repo 均无 LICENSE / README 也无 license 声明；按构建计划 §五严格政策不过滤；见 §暂搁套件） |
 | 14 | Sour | `sour/` | Sour Mesen GitHub | — | MIT | 未 vendor |
 | 15 | 3gengames | `3gengames/` | forums.nesdev.org（附件） | — | PD | 未 vendor |
 | 16 | Rahsennor | `rahsennor/` | forums.nesdev.org（附件） | — | PD | 未 vendor |
@@ -83,3 +83,43 @@ bash scripts/audit_sha256.sh      # 76 passed, 0 mismatched, 0 missing
 ## 已知 URL 精度问题
 
 - `bisqwit/*.nes` 的 Upstream URL 是 zip 包（`cpu_dummy_writes.zip` / `cpu_exec_space.zip`）。`sync_from_upstream.sh` 跑这些条目的 URL 会失败 → sync issue 触发 → OWNER 手工解 zip 后将单 ROM 入仓，或在 `sync_from_upstream.sh` 加 zip-aware 解压分支。
+
+## 暂搁套件（2026-09-23）
+
+下列套件在沙箱环境下无法 vendor，记录原因与恢复条件：
+
+### rainwarrior
+
+- **状态**：⏸ 暂搁（2026-09-23）
+- **沙箱内实测**：
+  - rainwarrior.ca/projects/nes/<rom>.zip 单 ROM 直链全 404（mict / mset / mmc5ramsize / n163_soundram / 31_test / bxrom_512k_test 全部试过）
+  - rainwarrior.ca/projects/nes/swap_tests.zip（13 MB）与 famicom_audio_swap_tests.zip（101 KB）能下到，但不是 F11QA 单 ROM vendor 粒度
+  - forums.nesdev.org/download/file.php?id=2247 等附件 URL Cloudflare 403，沙箱拉不到
+  - web.archive.org CDX API 确认 wayback 仅缓存 forums.nesdev.org 的 HTML 页面，无 .nes 二进制实体
+  - rainwarrior 个人 GitHub（@bbbradsmith）有 21 个公开 repo，无 nes-testroms 集中仓库
+- **恢复条件**：OWNER 用浏览器手动从 forums.nesdev.org / wayback 抓 .nes → 丢到 `rainwarrior/<test>/<name>.nes` → 走 §维护工具 5 步流程
+
+### TakuikaNinja（4 个 FDS 测试）
+
+- **状态**：⏸ 暂搁（2026-09-23）
+- **沙箱内实测**：
+  - 4 个上游 repo 各自有 GitHub Release 资产：FDS-Mirroring-Test v1.1、FDS-Audio-Registers v1.2、FDS-4030D1-Addr v1.0、FDS-4023-Test v1.0
+  - 4 个 .fds 二进制（每个 65500 字节）已下载并计算 SHA-256，但未 vendor
+  - 4 个 repo 均无 LICENSE 文件；README 也无 license 声明；上游作者未公开选择 license
+- **恢复条件**：
+  - 选项 A：联系上游（开 issue）请求作者补 LICENSE；拿到明确答复后再 vendor
+  - 选项 B：上游后续添加 LICENSE 文件，scrape 后再 vendor
+  - 选项 C：放宽政策（暂不考虑，与构建计划 §五冲突）
+
+## 已下载未 vendor（手清 pending）
+
+下列 .fds 二进制已下载到 `.tmp/`（gitignored 临时目录），SHA-256 已记录：
+
+| 文件 | 上游 release | SHA-256 |
+|---|---|---|
+| `mirroring-test.fds` | TakuikaNinja/FDS-Mirroring-Test v1.1 | `501bda77be6190bfb57d07a707880e74029e3e0f910441f6f7ba88431e70c2e3` |
+| `audio-registers.fds` | TakuikaNinja/FDS-Audio-Registers v1.2 | `80ccda5443653426f27e6b4b3125c9834e97931c50b9fcdccc00b8367ef9fe28` |
+| `4030d1-addr.fds` | TakuikaNinja/FDS-4030D1-Addr v1.0 | `ed9f62f8c85c3d94909359a55ff94a53427473378a2eff556f4b465f268fe0c5` |
+| `4023-test.fds` | TakuikaNinja/FDS-4023-Test v1.0 | `958dfad1656aaf1c3c82b162b68acada253ff59ed01726ff79430222fa49df3c` |
+
+恢复 vendor 时可直接复用这些 SHA-256 + 上游 release URL。
