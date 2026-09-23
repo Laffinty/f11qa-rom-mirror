@@ -123,3 +123,59 @@ bash scripts/audit_sha256.sh      # 76 passed, 0 mismatched, 0 missing
 | `4023-test.fds` | TakuikaNinja/FDS-4023-Test v1.0 | `958dfad1656aaf1c3c82b162b68acada253ff59ed01726ff79430222fa49df3c` |
 
 恢复 vendor 时可直接复用这些 SHA-256 + 上游 release URL。
+
+## 未来手工 vendor 清单（剩余套件）
+
+下列套件在沙箱内拿不到 .nes 实体（`forums.nesdev.org` Cloudflare 拦；web.archive.org 仅缓存 HTML 帖子，附件 `download/file.php` 无 .nes 二进制）。
+
+**OWNER 手工流程**：浏览器打开下表"thread 链接" → 在帖内找 `.nes` 附件 → 另存为到目标子目录 → 走 §维护工具 5 步流程。
+
+| 套件 | 子目录 | thread | attachment id | 作者 | 备注 |
+|---|---|---|---|---|---|
+| serom | `lidnariq/serom/serom.nes` | https://forums.nesdev.org/viewtopic.php?f=3&t=9350 | id=3753 | lidnariq | 测试 SEROM/SHROM/SH1ROM MMC1 变体 |
+| oamtest3 | `lidnariq/oamtest3/oamtest3.nes` | https://forums.nesdev.org/viewtopic.php?t=6424 | id=1537 | lidnariq | OAM $2003/$2004 上传工具，测 OAMADDR bug |
+| vaus | `lidnariq/vaus/vaus.nes` | https://forums.nesdev.org/viewtopic.php?t=23801 | id=21972 | lidnariq | Arkanoid 手柄 9-bit result 测试（≠ damianyerrick/vaus-test/） |
+| characterize-vs | `lidnariq/characterize-vs/characterize-vs.nes` | https://forums.nesdev.org/viewtopic.php?t=10276 | id=1415 | lidnariq | VS System 测试 |
+| raw pack2 | `lidnariq/raw_pack2/` | （未定位，需查 forum） | — | lidnariq | raw 32-bit report；可能为多文件 zip |
+| dma_sync_test_v2 | `rahsennor/dma_sync_test_v2/dma_sync_test_v2.nes` | https://forums.nesdev.org/viewtopic.php?t=14319 | id=5905 | Rahsennor | DMC DMA read corruption |
+| apu_phase_reset | `rahsennor/apu_phase_reset/apu_phase_reset.nes` | https://forums.nesdev.org/viewtopic.php?t=15346 | id=7496 | Rahsennor | $4003/$4007 写时 square 通道 duty cycle sequencer reset |
+| mmc3irqtest | `nk/mmc3irqtest/mmc3irqtest.nes` | https://forums.nesdev.org/viewtopic.php?p=261236 | id=19286, 19287, 19288, 19306, 19311 | N-K | 多个 .nes 变体（mmc3irqtest.nes, testaaa.nes 等）|
+| vrc6test | `natt/vrc6test/vrc6test.nes` | https://forums.nesdev.org/viewtopic.php?t=11028 | （wayback 无附件；可能在 zip 内或 post 内联） | natt | VRC6 mirroring 测试 |
+| bntest (独立) | `bntest/` | https://forums.nesdev.org/viewtopic.php?p=79826 | id=2253 | tepples | 与 `tepples/bntest/` 来源不同；待 OWNER 复核是否合并 |
+
+### rainwarrior 套件（仍暂搁，单独记录）
+
+| 套件 | 子目录 | thread | attachment id | 作者 | 备注 |
+|---|---|---|---|---|---|
+| bxrom_512k_test | `rainwarrior/bxrom_512k_test/bxrom_512k_test.nes` | https://forums.nesdev.org/viewtopic.php?f=3&t=12085 | id=2247 (binary), id=2248 (source) | rainwarrior | BxROM 512 KiB oversize 测试 |
+| mmc5ramsize | `rainwarrior/mmc5ramsize/mmc5ramsize.nes` | https://forums.nesdev.org/viewtopic.php?p=244062 (thread 19466) | id=16392 | rainwarrior | MMC5 large PRG-RAM 测试 |
+| n163_soundram + _init | `rainwarrior/n163_soundram/` | https://forums.nesdev.org/viewtopic.php?p=284414 (thread 24277) | （wayback HTTP 超时，浏览器直访） | rainwarrior | Namco 163 audio sound RAM |
+| mset | `rainwarrior/mset/mset.nes` | https://forums.nesdev.org/viewtopic.php?p=231608 (thread 18272) | id=14485 (含 mset.nes, mset3x.nes, mset6x.nes)，外加 id=14627, 14628, 14642, 14643 | rainwarrior | SNES 鼠标测试（连 NES） |
+| mict | `rainwarrior/mict/mict.nes` | 同 mset 帖子 | （可能在 mset 同 zip 内） | rainwarrior | Famicom microphone 测试 |
+| color_test | `rainwarrior/color_test/color_test.nes` | https://forums.nesdev.org/viewtopic.php?p=155593 (thread 13264) | id=4039 或 13183-13185 | rainwarrior | 单色全屏测试 |
+| palette.nes | `rainwarrior/palette/palette.nes` | 同 color_test 帖子 | id=14825, 14826, 14827 (含 palette_pal.nes) | rainwarrior | palette 显示测试 |
+| ram_retain | `rainwarrior/ram_retain/` | https://forums.nesdev.org/viewtopic.php?t=13334 | （wayback HTTP 超时） | rainwarrior | 上电/复位后 RAM 内容 |
+| 31_test | `rainwarrior/31_test/` | （未定位，需查 forum） | — | rainwarrior | mapper 31，NES 2.0 多 header 变体 |
+| NES 2.0 submapper 4 项 | `rainwarrior/submapper/` | （未定位，需查 forum） | — | rainwarrior | 2_test / 3_test / 7_test / 34_test（mapper 2/3/7/34） |
+| famicom_audio_swap_tests | `rainwarrior/famicom_audio_swap_tests/` | https://rainwarrior.ca/projects/nes/famicom_audio_swap_tests.zip | — | rainwarrior | 沙箱可达 zip (101KB)，可绕过论坛 |
+
+### TakuikaNinja 套件（仍暂搁，等 LICENSE）
+
+4 个 .fds 二进制已下载并计算 SHA-256（见 §已下载未 vendor（手清 pending））。
+恢复 vendor 只需：联系上游补 LICENSE → 在 LICENSES.md 加 4 条 entries（License 字段填上游选定 license）→ 在 SHA256SUMS.txt 加 4 行 → 在 `scripts/sync_from_upstream.sh` 加 4 个 `fetch_rom` 三行调用 → 跑 verify_licenses + audit_sha256 → commit。
+
+## 单次 vendor 流程（OWNER 浏览器操作）
+
+```
+1. 浏览器打开上表"thread 链接"
+2. 在帖子内找 .nes（或 .zip 包含 .nes）附件
+3. 另存为到目标子目录（路径已在表中"子目录"列给出）
+4. 计算 SHA-256：sha256sum.exe <path>（PowerShell: Get-FileHash -Algorithm SHA256 <path>）
+5. 打开 LICENSES.md，在对应子目录 section 末尾追加 ### 条目（License / Upstream URL / Upstream Author / Verified By / SHA-256 / Notes）
+6. 打开 SHA256SUMS.txt 末尾追加 <sha256>  <path> 行
+7. 打开 scripts/sync_from_upstream.sh main() 末尾追加 fetch_rom 三行调用
+8. cd <repo>; bash scripts/verify_licenses.sh && bash scripts/audit_sha256.sh；两者 PASS
+9. git add <files>; git commit -m "vendor <suite>"; git push
+```
+
+每个附件一笔 commit。出错就 rebase --abort 退回上一次 main。
