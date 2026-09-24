@@ -1116,3 +1116,68 @@ main "$@"    # -----------------------------------------------------------------
         "https://forums.nesdev.org/download/file.php?id=16392" \
         "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=16392" \
         "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=16392"
+    # ------------------------------------------------------------------
+    # Phase D batch 6 (wayback-sourced 2026-09-24, fine-grained sweep):
+    # 从每个 thread 的 wayback HTML 提取所有 attachment id，逐个试
+    # /web/2017id_/ 路径拉 .nes 二进制。覆盖剩余 5 套件中的 9 ROM。
+    # ------------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # nk/  (MMC3 scanline IRQ test)
+    # ------------------------------------------------------------------
+    fetch_rom "nk/mmc3irqtest/mmc3irqtest.nes" \
+        "a322b4591e721b82f7ea05fe1168617acb964f82f6d112d155e73f3c0ad89f22" \
+        "https://forums.nesdev.org/download/file.php?id=19288" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=19288" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=19288"
+    fetch_rom "nk/mmc3irqtest/mmc3irqtest_v2.nes" \
+        "28bcbe1c0fa85d12be952f0f63f670a2aa4dea93ef66c056b81f885ca1b80c78" \
+        "https://forums.nesdev.org/download/file.php?id=19311" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=19311" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=19311"
+    # ------------------------------------------------------------------
+    # rainwarrior/mset/  (SNES mouse test variants)
+    # ------------------------------------------------------------------
+    fetch_rom "rainwarrior/mset/mset.nes" \
+        "8dcf470b9b5be22943e7f50db1abe066f99257347fc8abe3635321a92ae5275a" \
+        "https://forums.nesdev.org/download/file.php?id=14627" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=14627" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=14627"
+    fetch_rom "rainwarrior/mset/mset6x.nes" \
+        "40be32f2f8fb1b17f282bf801452adffce13e93a7fa04e8c29eee85f471cc4fd" \
+        "https://forums.nesdev.org/download/file.php?id=14642" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=14642" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=14642"
+    # ------------------------------------------------------------------
+    # rainwarrior/mict/  (Famicom microphone test)
+    # ------------------------------------------------------------------
+    fetch_rom "rainwarrior/mict/mict.nes" \
+        "4e3e8720233c08bdd9cc1b65155d81e4374362c8e3d4ed00b4fd73927735d80e" \
+        "https://forums.nesdev.org/download/file.php?id=14643" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=14643" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=14643"
+    # ------------------------------------------------------------------
+    # rainwarrior/palette/  (Palette display NTSC + alt + PAL)
+    # ------------------------------------------------------------------
+    fetch_rom "rainwarrior/palette/palette.nes" \
+        "70b77b9f3729346212b01aae6baafb924d250c4403e088fb09b12d333674c496" \
+        "https://forums.nesdev.org/download/file.php?id=4043" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=4043" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=4043"
+    fetch_rom "rainwarrior/palette/palette_alt.nes" \
+        "8c3f42f527bde1651657adb46a42e1615ced0767dd8d814a242047b06e9db48b" \
+        "https://forums.nesdev.org/download/file.php?id=13183" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=13183" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=13183"
+    fetch_rom "rainwarrior/palette/palette_pal.nes" \
+        "e2e61eae5514072671ae554faadbfe0423c5eefb868743f026ae8e95b026320d" \
+        "https://forums.nesdev.org/download/file.php?id=13183" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=13183" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=13183"
+    # ------------------------------------------------------------------
+    # rainwarrior/ram_retain/  (RAM power-on/reset test)
+    # ------------------------------------------------------------------
+    fetch_rom "rainwarrior/ram_retain/ram_retain.nes" \
+        "96ad88de730c8af5c7a5301aeea417e6a0a70622fe25251119e04ff2fc9b3f34" \
+        "https://forums.nesdev.org/download/file.php?id=4168" \
+        "https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=4168" \
+        "https://web.archive.org/web/2024/https://forums.nesdev.org/download/file.php?id=4168"

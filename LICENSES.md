@@ -463,6 +463,93 @@ Example:
 
 ---
 
+## Phase D batch 6（2026-09-24）— Wayback Machine 第二轮
+
+继续 Phase D batch 5 的 Wayback `/web/2017id_/` 路径，针对剩余 5 套件做细粒度 sweep：每个 thread 的 wayback HTML 提取所有 attachment id → 逐个试 2017id_ 路径 → 拉到 .nes 二进制。
+
+### nk/mmc3irqtest/mmc3irqtest.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=19288
+- **Upstream Author**: N-K
+- **Original Date**: 2016
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: a322b4591e721b82f7ea05fe1168617acb964f82f6d112d155e73f3c0ad89f22
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 scanline IRQ test and $C000 glitch investigation. 主 ROM（N-K 在 post 261236 内上传的 mmc3irqtest.nes 主测试）。 Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=19288
+
+### nk/mmc3irqtest/mmc3irqtest_v2.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=19311
+- **Upstream Author**: N-K
+- **Original Date**: 2016
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: 28bcbe1c0fa85d12be952f0f63f670a2aa4dea93ef66c056b81f885ca1b80c78
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. MMC3 scanline IRQ test, alt variant (post 261236 内 5 个 attachment 的另一个 NES 二进制；id=19286/19287/19306 wayback 仅缓存 PNG 截图)。 Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=19311
+
+### rainwarrior/mset/mset.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=14627
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2016
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: 8dcf470b9b5be22943e7f50db1abe066f99257347fc8abe3635321a92ae5275a
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. SNES mouse test (connected to NES)。**同字节** attachment id=14628 (zip with source)。 Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=14627
+
+### rainwarrior/mset/mset6x.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=14642
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2016
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: 40be32f2f8fb1b17f282bf801452adffce13e93a7fa04e8c29eee85f471cc4fd
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. SNES mouse 6x 速度变体（同一 post 261236 thread 18272 内 id=14642 附件）。 Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=14642
+
+### rainwarrior/mict/mict.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=14643
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2016
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: 4e3e8720233c08bdd9cc1b65155d81e4374362c8e3d4ed00b4fd73927735d80e
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Famicom microphone test。post 261236 内 id=14643 附件（与 mset 同一 thread）。 Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=14643
+
+### rainwarrior/palette/palette.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=4043
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2014
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: 70b77b9f3729346212b01aae6baafb924d250c4403e088fb09b12d333674c496
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Palette display requiring only scanline-based palette changes. Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=4043
+
+### rainwarrior/palette/palette_alt.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=13183
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2017
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: 8c3f42f527bde1651657adb46a42e1615ced0767dd8d814a242047b06e9db48b
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. Palette display alt variant（NTSC，从 id=13183 zip 提取的 palette.nes；id=13184 直接 .nes 字节相同；id=14825 zip 包含同字节）。与 palette.nes (70b77b9f) 是不同版本（iNES header bytes 4-7 不同：00 00 00 00 vs 00 00 00 02）。 Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=13183
+
+### rainwarrior/palette/palette_pal.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=13183
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2017
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: e2e61eae5514072671ae554faadbfe0423c5eefb868743f026ae8e95b026320d
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. PAL palette display variant（从 id=13183 zip 提取的 palette_pal.nes；id=13185 直 .nes 字节相同，wiki 标签为 color_test.nes 但内容一致——可能 wiki 标签与原帖上传名不一致）。 Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=13183
+
+### rainwarrior/ram_retain/ram_retain.nes
+- **License**: PD
+- **Upstream URL**: https://forums.nesdev.org/download/file.php?id=4168
+- **Upstream Author**: rainwarrior
+- **Original Date**: 2014
+- **Verified By**: @Laffinty (OWNER), 2026-09-24
+- **SHA-256**: 96ad88de730c8af5c7a5301aeea417e6a0a70622fe25251119e04ff2fc9b3f34
+- **Notes**: PD by community consensus; third-party PD-tagged archive: https://nesninja.com/game/nes/public-domain. RAM contents test — displays contents of RAM at power-on or after reset. Wayback snapshot: https://web.archive.org/web/2017id_/https://forums.nesdev.org/download/file.php?id=4168
+
+---
+
 ## License Policy
 
 ### 接受的 license
